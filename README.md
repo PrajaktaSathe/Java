@@ -16,5 +16,5 @@ It is very easy to contribute, you may follow these steps -
 3. Open up a PR. It will be merged after review.
 
 
-** Do ⭐ the repo if you find it useful!! ☺😇☺ **
+**Do ⭐ the repo if you find it useful!!** ☺😇☺ 
 
