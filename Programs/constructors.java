@@ -14,7 +14,8 @@ class Area {
 		System.out.println("Area of rectangle is: " + area); // Printing area
 	}
 }
-public class Constructors {
+
+public class constructors {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Area rect1 = new Area(50, 25); // Object 1 instantiation 

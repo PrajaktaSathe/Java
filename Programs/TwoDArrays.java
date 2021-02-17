@@ -1,5 +1,5 @@
 // Program to demonstrate 2D arrays (Hard-coded) - 
-package TwoDArrays;
+// package TwoDArrays;
 class TwoD {
 	private int i, j;
 	// Initializing new array of the order 2 X 2
@@ -26,6 +26,7 @@ class TwoD {
 		}
 	}
 }
+
 public class TwoDArrays {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

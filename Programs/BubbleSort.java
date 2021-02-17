@@ -1,5 +1,4 @@
 // Program to sort an array in Java (using bubble sort) - 
-package bubbleSortArray;
 public class BubbleSort {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
