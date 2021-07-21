@@ -1,5 +1,5 @@
 // Program to show ArithmeticException Error handling - 
-public class Except {
+public class arithExceptions {
 	public static void main(String[] args) {
 		// try block - 
 		try {
