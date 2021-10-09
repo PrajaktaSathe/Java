@@ -43,7 +43,6 @@ It's very easy. You don't need to be an expert in coding and programming. Here a
 6. **Enjoy and welcome to Hacktoberfest 2021 and Keep Contributing :)**
 
 > You Can Upload Coded Projects In the Codes Directory 
-# Java
 
 ## 🔥 What will happen after my contribution?
 
@@ -66,7 +65,9 @@ I have created a simple page to display all contributors list [here](https://hct
 ---
 
 ## 🎯Objectives
+# Java
 **The Main Objectives of this Repositry is to help People for their Contribution in Hacktoberfest 2021**
+**Make any Java code and should be valid, If liked your pR will get merged.**
 
 ---
 
