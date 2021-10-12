@@ -69,7 +69,7 @@ It is very easy to contribute, you may follow these steps -
 45. [WiggleSorting](https://github.com/PrajaktaSathe/Java/blob/main/Programs/WiggleSorting.java) - Program to demonstrate sorting an array using wiggle sort
 46. [Palindrome](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Palindrome.java)- Program to check whether the number entered by user is palindrome or not
 47. [BinarySearch](https://github.com/PrajaktaSathe/Java/blob/main/Programs/BinarySearch.java) - Program to demonstrate sbinary search algorithm
-
+48. [TicTacToe](https://github.com/PrajaktaSathe/Java/blob/main/Programs/TicTacToe.java) - Program to play tic-tac-toe game with computer
 
 # Contributors
 
