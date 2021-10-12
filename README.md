@@ -67,7 +67,8 @@ It is very easy to contribute, you may follow these steps -
 43. [ThisPointerImplicit](https://github.com/PrajaktaSathe/Java/blob/main/Programs/ThisPointerImplicit.java) - Program to demonstrate the use of 'this' pointer
 44. [TwoDArrays](https://github.com/PrajaktaSathe/Java/blob/main/Programs/TwoDArrays.java) - Program to demonstrate 2D arrays (Hard-coded)
 45. [WiggleSorting](https://github.com/PrajaktaSathe/Java/blob/main/Programs/WiggleSorting.java) - Program to demonstrate sorting an array using wiggle sort
-46. [BinarySearch](https://github.com/PrajaktaSathe/Java/blob/main/Programs/BinarySearch.java) - Program to demonstrate sbinary search algorithm
+46. [Palindrome](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Palindrome.java)- Program to check whether the number entered by user is palindrome or not
+47. [BinarySearch](https://github.com/PrajaktaSathe/Java/blob/main/Programs/BinarySearch.java) - Program to demonstrate sbinary search algorithm
 
 
 # Contributors
