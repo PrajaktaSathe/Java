@@ -23,7 +23,7 @@ It is very easy to contribute, you may follow these steps -
 3. [Arithmetic exceptions](https://github.com/PrajaktaSathe/Java/blob/main/Programs/arithExceptions.java) - Program to show Arithmetic Exception Error handling.
 4. [Array Lists](https://github.com/PrajaktaSathe/Java/blob/main/Programs/arrayLists.java) - Program to show list of strings in java.
 5. [ArrayOutOfBounds](https://github.com/PrajaktaSathe/Java/blob/main/Programs/arrayOutOfBounds.java) - Program to show ArrayOutOfBoundsException Error handling.
-6. [Bank System](https://github.com/PrajaktaSathe/Java/blob/main/Programs/bankSystem.java) - Using concepts of object-oriented programming develop solution for banking system (create account, deposit money, withdraw etc.)
+6. [Bank System](https://github.com/PrajaktaSathe/Java/blob/main/Programs/bankSystem.java) - Using concepts of object-oriented programming develop solution for banking system (create account, deposit money, withdraw etc).
 7. [Book Shop](https://github.com/PrajaktaSathe/Java/blob/main/Programs/bookShop.java) - Class for book shop inventory management-
 8. [BubbleSort]((https://github.com/PrajaktaSathe/Java/blob/main/Programs/BubbleSort.java)) - Program to sort an array in Java (using bubble sort).
 9. [Calculator](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Calculator.java) - Calculator for basic math operations.
@@ -68,7 +68,7 @@ It is very easy to contribute, you may follow these steps -
 44. [TwoDArrays](https://github.com/PrajaktaSathe/Java/blob/main/Programs/TwoDArrays.java) - Program to demonstrate 2D arrays (Hard-coded).
 45. [WiggleSorting](https://github.com/PrajaktaSathe/Java/blob/main/Programs/WiggleSorting.java) - Program to demonstrate sorting an array using wiggle sort.
 46. [Palindrome](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Palindrome.java)- Program to check whether the number entered by user is palindrome or not.
-47. [BinarySearch](https://github.com/PrajaktaSathe/Java/blob/main/Programs/BinarySearch.java) - Program to demonstrate sbinary search algorithm.
+47. [BinarySearch](https://github.com/PrajaktaSathe/Java/blob/main/Programs/BinarySearch.java) - Program to demonstrate binary search algorithm.
 48. [TicTacToe](https://github.com/PrajaktaSathe/Java/blob/main/Programs/TicTacToe.java) - Program to play tic-tac-toe game with computer.
 
 # Contributors
