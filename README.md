@@ -74,6 +74,8 @@ It is very easy to contribute, you may follow these steps -
 49. [Fibonacci Search](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Fibonacci.java) - Program that implements Fibonacci search.
 50. [TicTacToe](https://github.com/PrajaktaSathe/Java/blob/main/Programs/TicTacToe.java) - Program to play tic-tac-toe game with computer.
 51. [Prim's Algorithm to find the MST of a Graph] - Created a Java Implementation of the Prim's Algorithm that is used to find the MST for a given graph (Created By Samrat Mitra)
+52. [Interpolation search](https://github.com/PrajaktaSathe/Java/blob/main/Programs/InterpolationSearch.java) - Program that implements Interpolation search.
+53. [Exponetional search](https://github.com/PrajaktaSathe/Java/blob/main/Programs/ExponentialSearch.java) - Program that implements Exponetional search.
 
 # Contributors
 
