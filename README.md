@@ -71,7 +71,7 @@ It is very easy to contribute, you may follow these steps -
 47. [BinarySearch](https://github.com/PrajaktaSathe/Java/blob/main/Programs/BinarySearch.java) - Program to demonstrate sbinary search algorithm
 48. [Heap Sort](https://github.com/PrajaktaSathe/Java/blob/main/Programs/HeapSort.java) - Program that implements Heap Sort.
 49. [Fibonacci Search](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Fibonacci.java) - Program that implements Fibonacci search.
-
+50. [TicTacToe](https://github.com/PrajaktaSathe/Java/blob/main/Programs/TicTacToe.java) - Program to play tic-tac-toe game with computer.
 
 # Contributors
 
