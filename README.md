@@ -15,7 +15,8 @@ It is very easy to contribute, you may follow these steps -
 2. Make changes/ add things (if adding a new program please check the program list below to see if the program hasn't been implemented already)
 3. Add a comment at the top of your program describing what it does (e.g. "Program to demonstrate abstract classes in Java")
 4. If you add a new program, update the list of programs in the readme file
-5. Open up a PR. It will be merged after review.
+5. Make sure to merge the latest master branch into your feature branch to avoid conflicts
+6. Open up a PR. It will be merged after review.
 
 ## Programs:
 1. [Abstract Class](https://github.com/PrajaktaSathe/Java/blob/main/Programs/abstractClass.java) - Program to demonstrate abstract classes in Java
