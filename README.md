@@ -70,6 +70,7 @@ It is very easy to contribute, you may follow these steps -
 46. [Palindrome](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Palindrome.java)- Program to check whether the number entered by user is palindrome or not
 47. [BinarySearch](https://github.com/PrajaktaSathe/Java/blob/main/Programs/BinarySearch.java) - Program to demonstrate sbinary search algorithm
 48. [Heap Sort](https://github.com/PrajaktaSathe/Java/blob/main/Programs/HeapSort.java) - Program that implements Heap Sort.
+49. [Fibonacci Search](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Fibonacci.java) - Program that implements Fibonacci search.
 
 
 # Contributors
