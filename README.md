@@ -77,6 +77,7 @@ It is very easy to contribute, you may follow these steps -
 52. [Interpolation search](https://github.com/PrajaktaSathe/Java/blob/main/Programs/InterpolationSearch.java) - Program that implements Interpolation search.
 53. [Exponetional search](https://github.com/PrajaktaSathe/Java/blob/main/Programs/ExponentialSearch.java) - Program that implements Exponetional search.
 54. [Exponetional search](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Soundex.java) - Program that implements Soundex algorithm.
+54. [BFS](https://github.com/PrajaktaSathe/Java/blob/main/Programs/BFS.java) - For unweighted connected graph.
 
 # Contributors
 
