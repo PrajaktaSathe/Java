@@ -76,6 +76,7 @@ It is very easy to contribute, you may follow these steps -
 51. [Prim's Algorithm to find the MST of a Graph](https://github.com/PrajaktaSathe/Java/blob/main/Programs/PrimsAlgorithm.java) - Program that implements Prim's Algorithm 
 52. [Interpolation search](https://github.com/PrajaktaSathe/Java/blob/main/Programs/InterpolationSearch.java) - Program that implements Interpolation search.
 53. [Exponetional search](https://github.com/PrajaktaSathe/Java/blob/main/Programs/ExponentialSearch.java) - Program that implements Exponetional search.
+54. [Exponetional search](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Soundex.java) - Program that implements Soundex algorithm.
 
 # Contributors
 
