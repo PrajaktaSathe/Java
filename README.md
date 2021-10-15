@@ -78,6 +78,7 @@ It is very easy to contribute, you may follow these steps -
 53. [Exponetional search](https://github.com/PrajaktaSathe/Java/blob/main/Programs/ExponentialSearch.java) - Program that implements Exponetional search.
 54. [Exponetional search](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Soundex.java) - Program that implements Soundex algorithm.
 54. [BFS](https://github.com/PrajaktaSathe/Java/blob/main/Programs/BFS.java) - For unweighted connected graph.
+55. [DFS](https://github.com/PrajaktaSathe/Java/blob/main/Programs/DFS.java) - For disconnected graph use the approach for  checking connected components.
 
 # Contributors
 
