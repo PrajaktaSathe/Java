@@ -79,6 +79,7 @@ It is very easy to contribute, you may follow these steps -
 54. [Exponetional search](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Soundex.java) - Program that implements Soundex algorithm.
 54. [BFS](https://github.com/PrajaktaSathe/Java/blob/main/Programs/BFS.java) - For unweighted connected graph.
 55. [DFS](https://github.com/PrajaktaSathe/Java/blob/main/Programs/DFS.java) - For disconnected graph use the approach for  checking connected components.
+56. [Decimal to Binary](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Decimal_to_Binary.java) - Convert decimal to binary.
 
 # Contributors
 
