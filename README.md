@@ -76,7 +76,7 @@ It is very easy to contribute, you may follow these steps -
 51. [Prim's Algorithm to find the MST of a Graph](https://github.com/PrajaktaSathe/Java/blob/main/Programs/PrimsAlgorithm.java) - Program that implements Prim's Algorithm 
 52. [Interpolation search](https://github.com/PrajaktaSathe/Java/blob/main/Programs/InterpolationSearch.java) - Program that implements Interpolation search.
 53. [Exponetional search](https://github.com/PrajaktaSathe/Java/blob/main/Programs/ExponentialSearch.java) - Program that implements Exponetional search.
-
+54. [Kaprekar Number](https://github.com/PrajaktaSathe/Java/blob/main/Programs/KaprekarNum.java) - Program that prints all the Kaprekar Numbers present within the asked range.
 # Contributors
 
 <a href="https://github.com/PrajaktaSathe/Java/graphs/contributors">
