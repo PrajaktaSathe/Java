@@ -43,7 +43,7 @@ It is very easy to contribute, you may follow these steps -
 
 21. [FunctionalInterfaces](https://github.com/PrajaktaSathe/Java/blob/main/Programs/FunctionalInterfaces.java) - Program to demonstrate how to use the Function and BiFunction functional interfaces
 22. [GenClassMethod](https://github.com/PrajaktaSathe/Java/blob/main/Programs/GenClassMethod.java) - Program to demonstrate method instanstiation in Java 
-23. [genProg](https://github.com/PrajaktaSathe/Java/blob/main/Programs/genProg.java)
+23. [genProg](https://github.com/PrajaktaSathe/Java/blob/main/Programs/genProg.java) - Demonstrates generic programming
 24. [helloWorld](https://github.com/PrajaktaSathe/Java/blob/main/Programs/helloWorld.java) - Simple Java helloworld program 
 25. [input](https://github.com/PrajaktaSathe/Java/blob/main/Programs/input.java) - Program to demostrate accepting an input in java
 26. [IntegerToWord](https://github.com/PrajaktaSathe/Java/blob/main/Programs/IntegerToWord.java) - This program converts numbers into its word counterparts.
