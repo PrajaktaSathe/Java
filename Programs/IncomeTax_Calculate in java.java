@@ -1,3 +1,4 @@
+My code is to create an income tax calculator. The first step is to ask whether the user is single or married, then based on that information it takes their secondary input (income) and calculates how much tax they must pay.
 import java.util.Scanner;
 public class IncomeTax_Calculate{
     public static void main(String[] args) {
