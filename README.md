@@ -43,7 +43,7 @@ It is very easy to contribute, you may follow these steps -
 
 21. [FunctionalInterfaces](https://github.com/PrajaktaSathe/Java/blob/main/Programs/FunctionalInterfaces.java) - Program to demonstrate how to use the Function and BiFunction functional interfaces
 22. [GenClassMethod](https://github.com/PrajaktaSathe/Java/blob/main/Programs/GenClassMethod.java) - Program to demonstrate method instanstiation in Java 
-23. [genProg](https://github.com/PrajaktaSathe/Java/blob/main/Programs/genProg.java)
+23. [genProg](https://github.com/PrajaktaSathe/Java/blob/main/Programs/genProg.java) - Demonstrates generic programming
 24. [helloWorld](https://github.com/PrajaktaSathe/Java/blob/main/Programs/helloWorld.java) - Simple Java helloworld program 
 25. [input](https://github.com/PrajaktaSathe/Java/blob/main/Programs/input.java) - Program to demostrate accepting an input in java
 26. [IntegerToWord](https://github.com/PrajaktaSathe/Java/blob/main/Programs/IntegerToWord.java) - This program converts numbers into its word counterparts.
@@ -58,7 +58,7 @@ It is very easy to contribute, you may follow these steps -
 34. [Overloading](https://github.com/PrajaktaSathe/Java/blob/main/Programs/overloading.java) - Program to demonstrate overloading in Java 
 35. [PrimeNo](https://github.com/PrajaktaSathe/Java/blob/main/Programs/primeNumbers.java) - Program to find out the prime numbers in a given range in Java
 36. [SquareEveryDigit](https://github.com/PrajaktaSathe/Java/blob/main/Programs/SquareEveryDigit.java) - This program finds the square of a number.
-37. [StaticCount](https://github.com/PrajaktaSathe/Java/blob/main/Programs/StaticCount.java)
+37. [StaticCount](https://github.com/PrajaktaSathe/Java/blob/main/Programs/StaticCount.java) - Program to demonstrates static count
 38. [StaticMemberFunctions](https://github.com/PrajaktaSathe/Java/blob/main/Programs/StaticMemberFunctions.java) - Program to demonstrate the use of static member functions -
 39. [StudentInterface](https://github.com/PrajaktaSathe/Java/blob/main/Programs/StudentInterface.java) - Shows implementation of an interface
 40. [SumOfArrayNos](https://github.com/PrajaktaSathe/Java/blob/main/Programs/SumOfArrayNos.java) - Program to add all the numbers in an array
@@ -76,7 +76,14 @@ It is very easy to contribute, you may follow these steps -
 51. [Prim's Algorithm to find the MST of a Graph](https://github.com/PrajaktaSathe/Java/blob/main/Programs/PrimsAlgorithm.java) - Program that implements Prim's Algorithm 
 52. [Interpolation search](https://github.com/PrajaktaSathe/Java/blob/main/Programs/InterpolationSearch.java) - Program that implements Interpolation search.
 53. [Exponetional search](https://github.com/PrajaktaSathe/Java/blob/main/Programs/ExponentialSearch.java) - Program that implements Exponetional search.
-54. [Kaprekar Number](https://github.com/PrajaktaSathe/Java/blob/main/Programs/KaprekarNum.java) - Program that prints all the Kaprekar Numbers present within the asked range.
+54. [Kaprekar Number](https://github.com/VividhPandey003/Java/blob/main/Programs/KaprekarNum.java) - Program that prints all the Kaprekar Numbers present within the asked range.
+55. [Exponetional search](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Soundex.java) - Program that implements Soundex algorithm.
+56. [BFS](https://github.com/PrajaktaSathe/Java/blob/main/Programs/BFS.java) - For unweighted connected graph.
+57. [DFS](https://github.com/PrajaktaSathe/Java/blob/main/Programs/DFS.java) - For disconnected graph use the approach for  checking connected components.
+58. [Decimal to Binary](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Decimal_to_Binary.java) - Convert decimal to binary.
+59. [Dijkstra](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Dijkstra.java) - Implements Dijkstra algorithm.
+60. [Insertion Sort](https://github.com/PrajaktaSathe/Java/blob/main/Programs/InsertionSort.java) - Program that demonstrates insertion sort algorithm
+
 # Contributors
 
 <a href="https://github.com/PrajaktaSathe/Java/graphs/contributors">
