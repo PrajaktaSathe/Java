@@ -58,7 +58,7 @@ It is very easy to contribute, you may follow these steps -
 34. [Overloading](https://github.com/PrajaktaSathe/Java/blob/main/Programs/overloading.java) - Program to demonstrate overloading in Java 
 35. [PrimeNo](https://github.com/PrajaktaSathe/Java/blob/main/Programs/primeNumbers.java) - Program to find out the prime numbers in a given range in Java
 36. [SquareEveryDigit](https://github.com/PrajaktaSathe/Java/blob/main/Programs/SquareEveryDigit.java) - This program finds the square of a number.
-37. [StaticCount](https://github.com/PrajaktaSathe/Java/blob/main/Programs/StaticCount.java)
+37. [StaticCount](https://github.com/PrajaktaSathe/Java/blob/main/Programs/StaticCount.java) - Program to demonstrates static count
 38. [StaticMemberFunctions](https://github.com/PrajaktaSathe/Java/blob/main/Programs/StaticMemberFunctions.java) - Program to demonstrate the use of static member functions -
 39. [StudentInterface](https://github.com/PrajaktaSathe/Java/blob/main/Programs/StudentInterface.java) - Shows implementation of an interface
 40. [SumOfArrayNos](https://github.com/PrajaktaSathe/Java/blob/main/Programs/SumOfArrayNos.java) - Program to add all the numbers in an array
