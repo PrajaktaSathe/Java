@@ -76,12 +76,13 @@ It is very easy to contribute, you may follow these steps -
 51. [Prim's Algorithm to find the MST of a Graph](https://github.com/PrajaktaSathe/Java/blob/main/Programs/PrimsAlgorithm.java) - Program that implements Prim's Algorithm 
 52. [Interpolation search](https://github.com/PrajaktaSathe/Java/blob/main/Programs/InterpolationSearch.java) - Program that implements Interpolation search.
 53. [Exponetional search](https://github.com/PrajaktaSathe/Java/blob/main/Programs/ExponentialSearch.java) - Program that implements Exponetional search.
-54. [Exponetional search](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Soundex.java) - Program that implements Soundex algorithm.
-54. [BFS](https://github.com/PrajaktaSathe/Java/blob/main/Programs/BFS.java) - For unweighted connected graph.
-55. [DFS](https://github.com/PrajaktaSathe/Java/blob/main/Programs/DFS.java) - For disconnected graph use the approach for  checking connected components.
-56. [Decimal to Binary](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Decimal_to_Binary.java) - Convert decimal to binary.
-57. [Dijkstra](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Dijkstra.java) - Implements Dijkstra algorithm.
-58. [Insertion Sort](https://github.com/PrajaktaSathe/Java/blob/main/Programs/InsertionSort.java) - Program that demonstrates insertion sort algorithm
+54. [Kaprekar Number](https://github.com/VividhPandey003/Java/blob/main/Programs/KaprekarNum.java) - Program that prints all the Kaprekar Numbers present within the asked range.
+55. [Exponetional search](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Soundex.java) - Program that implements Soundex algorithm.
+56. [BFS](https://github.com/PrajaktaSathe/Java/blob/main/Programs/BFS.java) - For unweighted connected graph.
+57. [DFS](https://github.com/PrajaktaSathe/Java/blob/main/Programs/DFS.java) - For disconnected graph use the approach for  checking connected components.
+58. [Decimal to Binary](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Decimal_to_Binary.java) - Convert decimal to binary.
+59. [Dijkstra](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Dijkstra.java) - Implements Dijkstra algorithm.
+60. [Insertion Sort](https://github.com/PrajaktaSathe/Java/blob/main/Programs/InsertionSort.java) - Program that demonstrates insertion sort algorithm
 
 # Contributors
 
