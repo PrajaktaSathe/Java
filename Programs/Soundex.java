@@ -1,6 +1,4 @@
-// Program that Implements Soundex algorithm
-public class Soundex 
-{
+public class Soundex {
     public static String getGode(String s) 
     {
         char[] x = s.toUpperCase().toCharArray();
@@ -8,6 +6,8 @@ public class Soundex
          
         char firstLetter = x[0];
  
+        //RULE [ 2 ]
+        //Convert letters to numeric code
         for (int i = 0; i < x.length; i++) {
             switch (x[i]) {
             case 'B':
@@ -59,24 +59,32 @@ public class Soundex
             }
         }
  
+        //Remove duplicates
+        //RULE [ 1 ]
         String output = "" + firstLetter;
          
+        //RULE [ 3 ]
         for (int i = 1; i < x.length; i++)
             if (x[i] != x[i - 1] && x[i] != '0')
                 output += x[i];
  
+        //RULE [ 4 ]
+        //Pad with 0's or truncate
         output = output + "0000";
         return output.substring(0, 4);
     }
 
-        public static void main(String[] args) 
+    public static void main(String[] args) 
     {
-        String name1 = "beer";
-        String name2 = "bear";
-        String name3 = "bearer";
+        String name1 = "Tail";
+        String name2 = "Tale";
+        String name3 = "Tailor";
          
         System.out.println(Soundex.getGode(name1));
         System.out.println(Soundex.getGode(name2));
         System.out.println(Soundex.getGode(name3));
     }
 }
+
+    
+
