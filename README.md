@@ -82,6 +82,7 @@ It is very easy to contribute, you may follow these steps -
 56. [Decimal to Binary](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Decimal_to_Binary.java) - Convert decimal to binary.
 57. [Dijkstra](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Dijkstra.java) - Implements Dijkstra algorithm.
 58. [Insertion Sort](https://github.com/PrajaktaSathe/Java/blob/main/Programs/InsertionSort.java) - Program that demonstrates insertion sort algorithm
+59. [Selection Sort](https://github.com/PrajaktaSathe/Java/blob/main/Programs/SelectionSort.java) - Program that demonstrates selection sort algorithm
 
 # Contributors
 
