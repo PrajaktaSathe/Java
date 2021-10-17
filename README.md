@@ -83,6 +83,7 @@ It is very easy to contribute, you may follow these steps -
 57. [Dijkstra](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Dijkstra.java) - Implements Dijkstra algorithm.
 58. [Insertion Sort](https://github.com/PrajaktaSathe/Java/blob/main/Programs/InsertionSort.java) - Program that demonstrates insertion sort algorithm
 59. [Selection Sort](https://github.com/PrajaktaSathe/Java/blob/main/Programs/SelectionSort.java) - Program that demonstrates selection sort algorithm
+59. [Quick Sort](https://github.com/PrajaktaSathe/Java/blob/main/Programs/QuickSort.java) - Program that demonstrates quick sort algorithm
 
 # Contributors
 
