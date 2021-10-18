@@ -85,8 +85,8 @@ It is very easy to contribute, you may follow these steps -
 59. [Selection Sort](https://github.com/PrajaktaSathe/Java/blob/main/Programs/SelectionSort.java) - Program that demonstrates selection sort algorithm
 60. [Quick Sort](https://github.com/PrajaktaSathe/Java/blob/main/Programs/QuickSort.java) - Program that demonstrates quick sort algorithm
 61. [Merge Sort](https://github.com/PrajaktaSathe/Java/blob/main/Programs/MergeSort.java) - Program that demonstrates merge sort algorithm
-61. [Shell Sort](https://github.com/PrajaktaSathe/Java/blob/main/Programs/ShellSort.java) - Program that demonstrates shell sort algorithm
-62. [IncomeTax Calculator](https://github.com/PrajaktaSathe/Java/blob/main/Programs/IncomeTaxCalculator.java) - Income Tax Calculator program
+62. [Shell Sort](https://github.com/PrajaktaSathe/Java/blob/main/Programs/ShellSort.java) - Program that demonstrates shell sort algorithm
+63. [IncomeTax Calculator](https://github.com/PrajaktaSathe/Java/blob/main/Programs/IncomeTaxCalculator.java) - Income Tax Calculator program
 
 # Contributors
 
