@@ -1,10 +1,12 @@
-My code is to create an income tax calculator. The first step is to ask whether the user is single or married, then based on that information it takes their secondary input (income) and calculates how much tax they must pay.
+/* My code is to create an income tax calculator. 
+The first step is to ask whether the user is single or married, then based on that information it takes their secondary input (income) and calculates how much tax they must pay.
+*/
 import java.util.Scanner;
 public class IncomeTax_Calculate{
     public static void main(String[] args) {
         
       Scanner sc=new Scanner(System.in);
-      System.out.println("Enter your income in lakhs par annum");
+      System.out.println("Enter your income in lakhs par annum: ");
       float tax=0;
       float income=sc.nextFloat();
       if (income<=2.5) {
@@ -19,6 +21,5 @@ public class IncomeTax_Calculate{
         tax=tax+0.3f*(income-10.0f);
       }
       System.out.println("The total tax paid by the employee is : "+tax);
-
     }
 }
