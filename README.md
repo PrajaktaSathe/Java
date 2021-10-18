@@ -87,6 +87,7 @@ It is very easy to contribute, you may follow these steps -
 61. [Merge Sort](https://github.com/PrajaktaSathe/Java/blob/main/Programs/MergeSort.java) - Program that demonstrates merge sort algorithm
 62. [Shell Sort](https://github.com/PrajaktaSathe/Java/blob/main/Programs/ShellSort.java) - Program that demonstrates shell sort algorithm
 63. [Income Tax Calculator](https://github.com/PrajaktaSathe/Java/blob/main/Programs/IncomeTaxCalculator.java) - Income Tax Calculator program
+64. [Counting Sort](https://github.com/PrajaktaSathe/Java/blob/main/Programs/CountingSort.java) - Program that demonstrates counting sort algorithm
 
 # Contributors
 
