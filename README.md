@@ -88,7 +88,7 @@ It is very easy to contribute, you may follow these steps -
 62. [Shell Sort](https://github.com/PrajaktaSathe/Java/blob/main/Programs/ShellSort.java) - Program that demonstrates shell sort algorithm
 63. [Income Tax Calculator](https://github.com/PrajaktaSathe/Java/blob/main/Programs/IncomeTaxCalculator.java) - Income Tax Calculator program
 64. [Bucket Sort](https://github.com/PrajaktaSathe/Java/blob/main/Programs/MergeSort.java) - Program that demonstrates Bucket sort algorithm
-
+65. [Trie_Implementation](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Trie_Implementation.java) - Program that demonstrates the implementation of Trie Data Structure in Java.
 
 # Contributors - 
 ## A big thank you to all our contributors!!!
