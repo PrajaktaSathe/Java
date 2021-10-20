@@ -88,7 +88,7 @@ It is very easy to contribute, you may follow these steps -
 62. [Shell Sort](https://github.com/PrajaktaSathe/Java/blob/main/Programs/ShellSort.java) - Program that demonstrates shell sort algorithm
 63. [Income Tax Calculator](https://github.com/PrajaktaSathe/Java/blob/main/Programs/IncomeTaxCalculator.java) - Income Tax Calculator program
 64. [Bucket Sort](https://github.com/PrajaktaSathe/Java/blob/main/Programs/MergeSort.java) - Program that demonstrates Bucket sort algorithm
-65. [Rock Paper Scissor](https://github.com/PrajaktaSathe/Java/blob/main/Programs/RockPaperScissor.java) - Rock paper Scissor Game Program
+67. [Rock Paper Scissor](https://github.com/PrajaktaSathe/Java/blob/main/Programs/RockPaperScissor.java) - Rock paper Scissor Game Program
 
 # Contributors - 
 ## A big thank you to all our contributors!!!
