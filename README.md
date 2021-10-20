@@ -89,7 +89,9 @@ It is very easy to contribute, you may follow these steps -
 63. [Income Tax Calculator](https://github.com/PrajaktaSathe/Java/blob/main/Programs/IncomeTaxCalculator.java) - Income Tax Calculator program
 64. [Bucket Sort](https://github.com/PrajaktaSathe/Java/blob/main/Programs/MergeSort.java) - Program that demonstrates Bucket sort algorithm
 
-# Contributors
+
+# Contributors - 
+## A big thank you to all our contributors!!!
 
 <a href="https://github.com/PrajaktaSathe/Java/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=PrajaktaSathe/Java" />
@@ -98,4 +100,3 @@ It is very easy to contribute, you may follow these steps -
 Made with [contributors-img](https://contrib.rocks).
 
 **Do ⭐ the repo if you find it useful!!** ☺😇☺ 
-
