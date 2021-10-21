@@ -1,3 +1,10 @@
+/* The main principle behind Soundex algorithm is that consonants are grouped depending on the ordinal numbers and
+finally encoded into a value against which others are matched. 
+It aims to find a code for every word by above process which is called soundex code.
+*/
+
+
+
 public class Soundex {
     public static String getGode(String s) 
     {
@@ -86,5 +93,10 @@ public class Soundex {
     }
 }
 
+/*
+t is clear from above output that words “tail” and “tale” have same code.
+Hence they are phonetic. 
+Word “tailor” has different code because it’s not phonetic same.
+*/
     
 
