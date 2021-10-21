@@ -91,6 +91,7 @@ It is very easy to contribute, you may follow these steps -
 65. [Rock Paper Scissor](https://github.com/PrajaktaSathe/Java/blob/main/Programs/RockPaperScissor.java) - Rock paper Scissor Game Program
 66. [Trie_Implementation](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Trie_Implementation.java) - Program that demonstrates the implementation of Trie Data Structure in Java.
 67. [Ford Fulkerson](https://github.com/PrajaktaSathe/Java/blob/main/Programs/FordFulkerson.java) - Program that demonstrates the implementation of FordFulkerson algorithm.
+68. [Kruskal](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Kruskal.java) - Program that demonstrates the implementation of Kruskal's algorithm.
 
 # Contributors - 
 ## A big thank you to all our contributors!!!
