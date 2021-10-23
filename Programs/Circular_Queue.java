@@ -5,7 +5,7 @@ public class Circular_Queue {
 		Node link; 
 	} 
 
-	static class CircularQueue { Node first, last; } 
+	static class CircularQueue {Node first, last;} 
 
 	static void Insert(CircularQueue cq, int value) { 
 		Node n = new Node(); 
