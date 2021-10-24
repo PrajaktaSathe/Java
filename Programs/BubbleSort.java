@@ -1,7 +1,6 @@
 // Program to sort an array in Java (using bubble sort) - 
 public class BubbleSort {
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int arr[] = {10, 45, 15, 13, 54}; // Initializing an array
 		int temp;
 		// Two for loops to traverse the array - 

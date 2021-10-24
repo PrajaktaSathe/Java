@@ -93,6 +93,7 @@ It is very easy to contribute, you may follow these steps -
 67. [Ford Fulkerson](https://github.com/PrajaktaSathe/Java/blob/main/Programs/FordFulkerson.java) - Program that demonstrates the implementation of FordFulkerson algorithm.
 68. [Kruskal](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Kruskal.java) - Program that demonstrates the implementation of Kruskal's algorithm.
 69. [GSSArray](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Gssarray.java) - Program demonstrates the working of Growable Self Sorting Array.
+70. [Ceiling Floor](https://github.com/PrajaktaSathe/Java/blob/main/Programs/CeilingFloor.java) - Program that demonstrates to find ceiling and floor number in an array
 
 # Contributors - 
 ## A big thank you to all our contributors!!!
