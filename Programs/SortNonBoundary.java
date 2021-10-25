@@ -1,3 +1,5 @@
+//Program to sort non-boundary elements in square matrix with print diagonal elements of matrix and sum of diagonal elements.
+
 import java.util.Scanner;
 class SortNonBoundary
 {
@@ -21,9 +23,9 @@ class SortNonBoundary
             System.out.println("Enter the elements of the Matrix : ");
             for(int i=0;i<m;i++)
             {
+                System.out.print("Enter a value : ");
                 for(int j=0;j<m;j++)
                 {
-                    System.out.print("Enter a value : ");
                     A[i][j]=sc.nextInt();
                 }
             }
@@ -108,3 +110,4 @@ class SortNonBoundary
         ob.printDiagonal();
     }
 }
+
