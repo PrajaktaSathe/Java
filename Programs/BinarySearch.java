@@ -1,4 +1,5 @@
 // Java implementation of recursive Binary Search
+import java.util.*;
 class BinarySearch {
 	// Returns index of target if it is present in arr else return -1
 	int binarySearch(int arr[], int first, int last, int target)
@@ -27,7 +28,12 @@ class BinarySearch {
 	public static void main(String args[])
 	{
 		BinarySearch ob = new BinarySearch();
-		int arr[] = { 2, 3, 4, 10, 40 };
+		Scanner kb = new Scanner(System.in);
+		int n = kb.nextInt();
+		int arr[] = new int[n];
+		for(int i=0;i<n;i++){
+			arr[i]=kb.nextInt();
+				}
 		int length = arr.length;
 		int target = 10;
 		int result = ob.binarySearch(arr, 0, length - 1, target);
@@ -35,5 +41,6 @@ class BinarySearch {
 			System.out.println("Element not present");
 		else
 			System.out.println("Element found at index " + result);
+			kb.close();
 	}
 }
