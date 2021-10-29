@@ -99,6 +99,8 @@ It is very easy to contribute, you may follow these steps -
 72. [Rabin-Karp Algorithm](https://github.com/PrajaktaSathe/Java/blob/main/Programs/RabinKarp.java) - Program that demonstrates Rabin-Karp algorithm used for pattern matching and string searches
 73. [Bellman Ford Algorithm](https://github.com/PrajaktaSathe/Java/blob/main/Programs/BellmanFord.java) - Program that demonstrates Bellman Ford algorithm used to find the shortest path from a vertex to all other vertices of a weighted graph.
 74. [Huffman Coding](https://github.com/PrajaktaSathe/Java/blob/main/Programs/HuffmanCoding.java) - Program that demonstrates Huffman Coding for data compression.
+75. [Tail](https://github.com/MalshaSamarakoon/Java/blob/8790d2c9652e10b98c761721419c01ff67f12dda/Programs/Tail.java)-Program that demonstratestail-recursion Algorithm
+
 
 # Contributors - 
 ## A big thank you to all our contributors!!!
