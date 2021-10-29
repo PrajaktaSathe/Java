@@ -1,7 +1,7 @@
 // This program demonstrates a new and most efficient way to calculate number of digits by using logarithmic functions
 /* the normal and most used algorithm to calculate number of digits is
 while(num>0){
-numberOfDigits=num%10;
+numberOfDigits++;
 num=num%10;
 }
 this algorithm has a time complexity of O(n)
