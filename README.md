@@ -95,6 +95,7 @@ It is very easy to contribute, you may follow these steps -
 69. [GSSArray](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Gssarray.java) - Program demonstrates the working of Growable Self Sorting Array.
 70. [Ceiling Floor](https://github.com/PrajaktaSathe/Java/blob/main/Programs/CeilingFloor.java) - Program that demonstrates to find ceiling and floor number in an array
 71. [Floyd Warshall Algorithm](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Floyd_Warshall_Algorithm.java) - Program for solving the All Pairs Shortest Path problem where to find shortest distances between every pair of vertices in a given edge weighted directed Graph.
+72. [Find element with function interface](https://github.com/PrajaktaSathe/Java/blob/main/Programs/FindIndexValue.java) - To find element at a index using function interface
 
 # Contributors - 
 ## A big thank you to all our contributors!!!
