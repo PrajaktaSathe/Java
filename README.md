@@ -99,8 +99,10 @@ It is very easy to contribute, you may follow these steps -
 72. [Rabin-Karp Algorithm](https://github.com/PrajaktaSathe/Java/blob/main/Programs/RabinKarp.java) - Program that demonstrates Rabin-Karp algorithm used for pattern matching and string searches
 73. [Bellman Ford Algorithm](https://github.com/PrajaktaSathe/Java/blob/main/Programs/BellmanFord.java) - Program that demonstrates Bellman Ford algorithm used to find the shortest path from a vertex to all other vertices of a weighted graph.
 74. [Huffman Coding](https://github.com/PrajaktaSathe/Java/blob/main/Programs/HuffmanCoding.java) - Program that demonstrates Huffman Coding for data compression.
-75. [Depth First Search](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Gssarray.java) - Program demonstrates Depth First Search algorithm
-76. [Breath First Search](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Gssarray.java) - Program demonstrates Breath First Search algorithm
+75. [ADT Fraction Program](https://github.com/PrajaktaSathe/Java/blob/main/Programs/ADTFractionApp.java) - Program to demontrate how to deal with numarators and denomenator
+76. [Number Array without duplicate elements](https://github.com/PrajaktaSathe/Java/blob/main/Programs/NoDupArray.java) - Program to demontrate Number array without duplicate elements
+77. [Depth First Search](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Gssarray.java) - Program demonstrates Depth First Search algorithm
+78. [Breath First Search](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Gssarray.java) - Program demonstrates Breath First Search algorithm
 
 
 # Contributors - 
