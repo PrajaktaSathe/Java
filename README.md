@@ -46,11 +46,12 @@ It is very easy to contribute, you may follow these steps -
 23. [gen Prog](https://github.com/PrajaktaSathe/Java/blob/main/Programs/genProg.java) - Demonstrates generic programming
 24. [hello World](https://github.com/PrajaktaSathe/Java/blob/main/Programs/helloWorld.java) - Simple Java helloworld program 
 25. [input](https://github.com/PrajaktaSathe/Java/blob/main/Programs/input.java) - Program to demostrate accepting an input in java
-26. [Integer To Word](https://github.com/PrajaktaSathe/Java/blob/main/Programs/IntegerToWord.java) - This program converts numbers into its word counterparts.
-27. [JavaC lasses](https://github.com/PrajaktaSathe/Java/blob/main/Programs/JavaClasses.java) - Program to demonstrate the use of classes and objects (basic)
-28. [Largest Number](https://github.com/PrajaktaSathe/Java/blob/main/Programs/largestNum.java) - Program to demonstrate the use of if-else if-else statements
-29. [Lists](https://github.com/PrajaktaSathe/Java/blob/main/Programs/list_1.java) - Shows array list of strings, integers and linked list for numbers
-30. [Matrix Addition](https://github.com/PrajaktaSathe/Java/blob/main/Programs/MatrixAdd.java) - Program to add two matrices in Java
+26. [Integers](https://github.com/PrajaktaSathe/Java/blob/main/Programs/integers.java) - Simple java program to compare integers with each other.
+27. [Integer To Word](https://github.com/PrajaktaSathe/Java/blob/main/Programs/IntegerToWord.java) - This program converts numbers into its word counterparts.
+28. [JavaC lasses](https://github.com/PrajaktaSathe/Java/blob/main/Programs/JavaClasses.java) - Program to demonstrate the use of classes and objects (basic)
+29. [Largest Number](https://github.com/PrajaktaSathe/Java/blob/main/Programs/largestNum.java) - Program to demonstrate the use of if-else if-else statements
+30. [Lists](https://github.com/PrajaktaSathe/Java/blob/main/Programs/list_1.java) - Shows array list of strings, integers and linked list for numbers
+31. [Matrix Addition](https://github.com/PrajaktaSathe/Java/blob/main/Programs/MatrixAdd.java) - Program to add two matrices in Java
 
 31. [Multiple Inheritance](https://github.com/PrajaktaSathe/Java/blob/main/Programs/MultipleInheritance.java) - Program to demonstrate multiple inheritance
 32. [Nested Try](https://github.com/PrajaktaSathe/Java/blob/main/Programs/GenClassMethod.java) - Program to demonstrate a nested try..catch 
@@ -96,6 +97,13 @@ It is very easy to contribute, you may follow these steps -
 70. [Ceiling Floor](https://github.com/PrajaktaSathe/Java/blob/main/Programs/CeilingFloor.java) - Program that demonstrates to find ceiling and floor number in an array
 71. [Floyd Warshall Algorithm](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Floyd_Warshall_Algorithm.java) - Program for solving the All Pairs Shortest Path problem where to find shortest distances between every pair of vertices in a given edge weighted directed Graph.
 72. [Find element with function interface](https://github.com/PrajaktaSathe/Java/blob/main/Programs/FindIndexValue.java) - To find element at a index using function interface
+73. [Rabin-Karp Algorithm](https://github.com/PrajaktaSathe/Java/blob/main/Programs/RabinKarp.java) - Program that demonstrates Rabin-Karp algorithm used for pattern matching and string searches
+74. [Bellman Ford Algorithm](https://github.com/PrajaktaSathe/Java/blob/main/Programs/BellmanFord.java) - Program that demonstrates Bellman Ford algorithm used to find the shortest path from a vertex to all other vertices of a weighted graph.
+75. [Huffman Coding](https://github.com/PrajaktaSathe/Java/blob/main/Programs/HuffmanCoding.java) - Program that demonstrates Huffman Coding for data compression.
+76. [ADT Fraction Program](https://github.com/PrajaktaSathe/Java/blob/main/Programs/ADTFractionApp.java) - Program to demontrate how to deal with numarators and denomenator
+77. [Number Array without duplicate elements](https://github.com/PrajaktaSathe/Java/blob/main/Programs/NoDupArray.java) - Program to demontrate Number array without duplicate elements
+78. [Depth First Search](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Gssarray.java) - Program demonstrates Depth First Search algorithm
+79. [Breath First Search](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Gssarray.java) - Program demonstrates Breath First Search algorithm
 
 # Contributors - 
 ## A big thank you to all our contributors!!!

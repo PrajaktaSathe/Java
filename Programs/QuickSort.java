@@ -1,60 +1,48 @@
-// Program that implements the quick sort algorithm
-// Best Case : O(n log n)
-// Average Case : O(n log n)
-// Worst Case : O(n^2)
+//Quick Sort
+import java.util.*;
+import java.lang.*;
+import java.io.*;
 
-import java.util.Arrays;
- 
-public class QuickSortMain {
- 
-    private static int array[];
- 
-    public static void sort(int[] arr) {
- 
-        if (arr == null || arr.length == 0) {
-            return;
-        }
-        array = arr;
-        quickSort(0, array.length-1);
-    }
- 
-    private static void quickSort(int left, int right) {
- 
-        int i = left;
-        int j = right;
 
-        int pivot = array[left+(right-left)/2];
- 
-        while (i <= j) {
-            while (array[i] < pivot) { i++; } while (array[j] > pivot) {
-                j--;
-            }
-            if (i <= j) {
-                exchange(i, j);
-                i++;
-                j--;
-            }
+
+public class QuickSort{
+    public static void main(String args[]){
+        int arr[]= {-1,-2,42,1,24,44,32,0,12,100};
+        quickSort(arr,0,arr.length-1);
+        System.out.println(Arrays.toString(arr));
+    }
+    
+    
+    public static void quickSort(int arr[],int i, int j){
+        int pivot = i;
+        if(i<j){
+            sort(arr,i,j,pivot);
+            quickSort(arr,i,pivot);
+            quickSort(arr,pivot+1,j);
         }
-        if (left < j)
-            quickSort(left, j);
-        if (i < right)
-            quickSort(i, right);
     }
- 
-    private static void exchange(int i, int j) {
-        int temp = array[i];
-        array[i] = array[j];
-        array[j] = temp;
-    }
- 
-    public static void main(String a[]){
-        int[] input = {33,21,45,64,55,34,11,8,3,5,1};
-        System.out.println("Before Sorting : ");
-        System.out.println(Arrays.toString(input));
-        sort(input);
-        System.out.println("==================");
-        System.out.println("After Sorting : ");
-        System.out.println(Arrays.toString(array));
- 
+    
+    public static int[] sort(int arr[],int i,int j,int pivot){
+        if(j<=pivot || i>=arr.length){
+            return arr;
+        }
+        while(arr[i] < arr[pivot]){
+            i++;
+        }
+        while(arr[j]> arr[pivot]){
+            j--;
+        }
+        if(i<j){
+            int tmp = arr[i];
+            arr[i] = arr[j];
+            arr[j] = tmp;
+            return sort(arr,i,j,pivot);
+        }
+        else{
+            int tmp = arr[pivot];
+            arr[pivot] = arr[j];
+            arr[j] = tmp;
+            return arr;
+        }
     }
 }
