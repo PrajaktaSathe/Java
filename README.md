@@ -104,6 +104,7 @@ It is very easy to contribute, you may follow these steps -
 77. [Number Array without duplicate elements](https://github.com/PrajaktaSathe/Java/blob/main/Programs/NoDupArray.java) - Program to demontrate Number array without duplicate elements
 78. [Depth First Search](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Gssarray.java) - Program demonstrates Depth First Search algorithm
 79. [Breath First Search](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Gssarray.java) - Program demonstrates Breath First Search algorithm
+80. [Number Of Digits](https://github.com/Raunak49/Java/blob/digits/NumberOfDigit.java) - Program demonstrates number of digits
 
 # Contributors - 
 ## A big thank you to all our contributors!!!
