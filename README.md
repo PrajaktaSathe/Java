@@ -107,6 +107,7 @@ It is very easy to contribute, you may follow these steps -
 80. [Number Of Digits](https://github.com/Raunak49/Java/blob/digits/NumberOfDigit.java) - Program demonstrates number of digits
 81. [Circular integer Linkedlist](https://github.com/PrajaktaSathe/Java/tree/main/Programs/Circular%20Integer%20LinkedList) - Program shows circular linkedlist operations 
 82. [SwitchingLetters](https://github.com/PrajaktaSathe/Java/tree/main/Programs/SwitchingLetters.java) - Program that demonstrates switching letters according to given indexes.
+83. [Matrix Multiplication](https://github.com/siddhant2002/Java-1/blob/main/Programs/matrix/Matrix_Multiply.java) - Program to multiply two matrices.
 
 # Contributors - 
 ## A big thank you to all our contributors!!!
