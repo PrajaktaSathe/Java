@@ -26,7 +26,7 @@ It is very easy to contribute, you may follow these steps -
 5. [Array Out Of Bounds](https://github.com/PrajaktaSathe/Java/blob/main/Programs/arrayOutOfBounds.java) - Program to show ArrayOutOfBoundsException Error handling
 6. [Bank System](https://github.com/PrajaktaSathe/Java/blob/main/Programs/bankSystem.java) - Using concepts of object-oriented programming develop solution for banking system (create account, deposit money, withdraw etc.)
 7. [Book Shop](https://github.com/PrajaktaSathe/Java/blob/main/Programs/bookShop.java) - Class for book shop inventory management-
-8. [Bubble Sort]((https://github.com/PrajaktaSathe/Java/blob/main/Programs/BubbleSort.java)) - Program to sort an array in Java (using bubble sort)
+8. [Bubble Sort](./Programs/BubbleSort.java) - Program to sort an array in Java (using bubble sort)
 9. [Calculator](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Calculator.java) - Calculator for basic math operations
 10. [Circular Queue](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Circular_Queue.java) - Demonstrates implementation of a circular queue 
 
@@ -111,6 +111,10 @@ It is very easy to contribute, you may follow these steps -
 84. [Sieve of Eratosthenes](https://github.com/siddhant2002/Java-1/blob/main/Programs/Sieve_Of_Eratosthenes.java) - Program to multiply two matrices.
 85. [Reverse a LinkedList](https://github.com/siddhant2002/Java-1/blob/main/Programs/ReverseList.java) - Program to reverse a linkedList.
 86. [Peg Solitaire](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Games/peg-solitaire/) - Peg Solitaire Game
+87. [ToDO List](./Programs/ToDoList.java) - Simple ToDo list program.
+88. [Ceaser Cipher Encryption](./Programs/CeaserCipher.java) - Encrypt Text with Ceaser Cipher Methodology.
+89. [Recursion](./Programs/Check_If_Sorted.java) - Check if an Array is sorted using recursion.
+90. [Patterns](./Programs/patterns) - Print out patterns in terminal (Steps included).
 # Contributors - 
 ## A big thank you to all our contributors!!!
 
