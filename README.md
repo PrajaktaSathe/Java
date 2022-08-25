@@ -110,8 +110,9 @@ It is very easy to contribute, you may follow these steps -
 83. [Matrix Multiplication](https://github.com/siddhant2002/Java-1/blob/main/Programs/matrix/Matrix_Multiply.java) - Program to multiply two matrices.
 84. [Sieve of Eratosthenes](https://github.com/siddhant2002/Java-1/blob/main/Programs/Sieve_Of_Eratosthenes.java) - Program to multiply two matrices.
 85. [Reverse a LinkedList](https://github.com/siddhant2002/Java-1/blob/main/Programs/ReverseList.java) - Program to reverse a linkedList.
-86. [Peg Solitaire](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Games/peg-solitaire/) - Peg Solitaire Game
-87. [PrintPattern](https://github.com/arshcoder13/Java/blob/main/Programs/PrintPattern.java) - Print Pattern using Nested For Loops
+86. [Peg Solitaire](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Games/peg-solitaire/) - Peg Solitaire Game.
+87. [PrintPattern](https://github.com/arshcoder13/Java/blob/main/Programs/PrintPattern.java) - Print Pattern using Nested For Loops.
+88. [Two Sum](https://github.com/siddhant2002/Java-1/blob/main/Programs/Two_Sum.java) - Sum of two elements which is equal to the target element.
 # Contributors - 
 ## A big thank you to all our contributors!!!
 
