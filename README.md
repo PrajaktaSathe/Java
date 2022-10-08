@@ -117,6 +117,7 @@ It is very easy to contribute, you may follow these steps -
 90. [Ceaser Cipher Encryption](./Programs/CeaserCipher.java) - Encrypt Text with Ceaser Cipher Methodology.
 91. [Recursion](./Programs/Check_If_Sorted.java) - Check if an Array is sorted using recursion.
 92. [Patterns](./Programs/patterns) - Print out patterns in terminal (Steps included).
+93. [Lucky Number](https://github.com/PrajaktaSathe/Java/blob/main/Programs/LuckyNumber.java) - Program to check if the given number is a Lucky Number or not.
 
 # Contributors - 
 ## A big thank you to all our contributors!!!
