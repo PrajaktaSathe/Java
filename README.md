@@ -120,7 +120,7 @@ It is very easy to contribute, you may follow these steps -
 93. [Lucky Number](https://github.com/PrajaktaSathe/Java/blob/main/Programs/LuckyNumber.java) - Program to check if the given number is a Lucky Number or not.
 94. [Knapsack Problem](https://github.com/PrajaktaSathe/Java/blob/main/Programs/KnapSack.java) - Program to solve the 0/1 Knapsack problem using Dynamic Programming Approach.
 95. [Strassen's Multiplication](https://github.com/PrajaktaSathe/Java/blob/main/Programs/StrassensMultiplication.java) - Program to multiply two square matrices using Strassen's Multiplication method.
-96. [Xor Palindrome] (https://github.com/PrajaktaSathe/Java/blob/main/Programs/Xorpalindrome.java) - Program/Solution to Xor Palindrome
+96. [Xor Palindrome](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Xorpalindrome.java) - Program/Solution to Xor Palindrome
 
 # Contributors - 
 ## A big thank you to all our contributors!!!
