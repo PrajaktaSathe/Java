@@ -121,6 +121,7 @@ It is very easy to contribute, you may follow these steps -
 94. [Knapsack Problem](https://github.com/PrajaktaSathe/Java/blob/main/Programs/KnapSack.java) - Program to solve the 0/1 Knapsack problem using Dynamic Programming Approach.
 95. [Strassen's Multiplication](https://github.com/PrajaktaSathe/Java/blob/main/Programs/StrassensMultiplication.java) - Program to multiply two square matrices using Strassen's Multiplication method.
 96. [Xor Palindrome](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Xorpalindrome.java) - Program/Solution to Xor Palindrome
+97. [Streams API](./Programs/JavaStreams.java) - Program to demo the Java Stream API with String and Integer Lists.
 
 # Contributors - 
 ## A big thank you to all our contributors!!!
