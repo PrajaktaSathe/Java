@@ -123,6 +123,7 @@ It is very easy to contribute, you may follow these steps -
 96. [Xor Palindrome](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Xorpalindrome.java) - Program/Solution to Xor Palindrome
 97. [Streams API](./Programs/JavaStreams.java) - Program to demo the Java Stream API with String and Integer Lists.
 98.[Stack](https://github.com/PrajaktaSathe/Java/blob/main/Stack.java)-Program to demo the stack implementation
+99.[RotateLinkedList](https://github.com/PrajaktaSathe/Java/blob/main/Programs/RotateLinkedList.java)-Program to demo rotating a linked list
 # Contributors - 
 ## A big thank you to all our contributors!!!
 
