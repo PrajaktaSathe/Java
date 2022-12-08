@@ -126,6 +126,7 @@ It is very easy to contribute, you may follow these steps -
 99.[RotateLinkedList](https://github.com/PrajaktaSathe/Java/blob/main/Programs/RotateLinkedList.java)-Program to demo rotating a linked list
 100. [ReverseString](https://github.com/PrajaktaSathe/Java/blob/main/ReverseString.java) -Program to reverse a String using the java method substring.
 101.[Overriding](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Overriding.java)-Program to demo overriding in java
+102.[MyApp_GUI](https://github.com/PrajaktaSathe/Java/blob/main/Programs/MyApp_GUI.java)-program to display simple GUI with functionalities such us clear and calculate average 
 
 # Contributors - 
 ## A big thank you to all our contributors!!!
