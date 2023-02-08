@@ -126,6 +126,7 @@ It is very easy to contribute, you may follow these steps -
 99.[RotateLinkedList](https://github.com/PrajaktaSathe/Java/blob/main/Programs/RotateLinkedList.java)-Program to demo rotating a linked list
 100. [ReverseString](https://github.com/PrajaktaSathe/Java/blob/main/ReverseString.java) -Program to reverse a String using the java method substring.
 101.[Overriding](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Overriding.java)-Program to demo overriding in java
+102. [K closest Point to Origin by Heap](https://github.com/PrajaktaSathe/Java/pull/169/commits/4733570db80491cf7205836a16bfb756e91522bd) - K closest Point to Origin by Heap
 
 # Contributors - 
 ## A big thank you to all our contributors!!!
