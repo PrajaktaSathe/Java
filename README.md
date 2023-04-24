@@ -26,7 +26,7 @@ It is very easy to contribute, you may follow these steps -
 5. [Array Out Of Bounds](https://github.com/PrajaktaSathe/Java/blob/main/Programs/arrayOutOfBounds.java) - Program to show ArrayOutOfBoundsException Error handling
 6. [Bank System](https://github.com/PrajaktaSathe/Java/blob/main/Programs/bankSystem.java) - Using concepts of object-oriented programming develop solution for banking system (create account, deposit money, withdraw etc.)
 7. [Book Shop](https://github.com/PrajaktaSathe/Java/blob/main/Programs/bookShop.java) - Class for book shop inventory management-
-8. [Bubble Sort]((https://github.com/PrajaktaSathe/Java/blob/main/Programs/BubbleSort.java)) - Program to sort an array in Java (using bubble sort)
+8. [Bubble Sort](./Programs/BubbleSort.java) - Program to sort an array in Java (using bubble sort)
 9. [Calculator](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Calculator.java) - Calculator for basic math operations
 10. [Circular Queue](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Circular_Queue.java) - Demonstrates implementation of a circular queue 
 
@@ -46,11 +46,12 @@ It is very easy to contribute, you may follow these steps -
 23. [gen Prog](https://github.com/PrajaktaSathe/Java/blob/main/Programs/genProg.java) - Demonstrates generic programming
 24. [hello World](https://github.com/PrajaktaSathe/Java/blob/main/Programs/helloWorld.java) - Simple Java helloworld program 
 25. [input](https://github.com/PrajaktaSathe/Java/blob/main/Programs/input.java) - Program to demostrate accepting an input in java
-26. [Integer To Word](https://github.com/PrajaktaSathe/Java/blob/main/Programs/IntegerToWord.java) - This program converts numbers into its word counterparts.
-27. [JavaC lasses](https://github.com/PrajaktaSathe/Java/blob/main/Programs/JavaClasses.java) - Program to demonstrate the use of classes and objects (basic)
-28. [Largest Number](https://github.com/PrajaktaSathe/Java/blob/main/Programs/largestNum.java) - Program to demonstrate the use of if-else if-else statements
-29. [Lists](https://github.com/PrajaktaSathe/Java/blob/main/Programs/list_1.java) - Shows array list of strings, integers and linked list for numbers
-30. [Matrix Addition](https://github.com/PrajaktaSathe/Java/blob/main/Programs/MatrixAdd.java) - Program to add two matrices in Java
+26. [Integers](https://github.com/PrajaktaSathe/Java/blob/main/Programs/integers.java) - Simple java program to compare integers with each other.
+27. [Integer To Word](https://github.com/PrajaktaSathe/Java/blob/main/Programs/IntegerToWord.java) - This program converts numbers into its word counterparts.
+28. [JavaC lasses](https://github.com/PrajaktaSathe/Java/blob/main/Programs/JavaClasses.java) - Program to demonstrate the use of classes and objects (basic)
+29. [Largest Number](https://github.com/PrajaktaSathe/Java/blob/main/Programs/largestNum.java) - Program to demonstrate the use of if-else if-else statements
+30. [Lists](https://github.com/PrajaktaSathe/Java/blob/main/Programs/list_1.java) - Shows array list of strings, integers and linked list for numbers
+31. [Matrix Addition](https://github.com/PrajaktaSathe/Java/blob/main/Programs/MatrixAdd.java) - Program to add two matrices in Java
 
 31. [Multiple Inheritance](https://github.com/PrajaktaSathe/Java/blob/main/Programs/MultipleInheritance.java) - Program to demonstrate multiple inheritance
 32. [Nested Try](https://github.com/PrajaktaSathe/Java/blob/main/Programs/GenClassMethod.java) - Program to demonstrate a nested try..catch 
@@ -94,6 +95,37 @@ It is very easy to contribute, you may follow these steps -
 68. [Kruskal](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Kruskal.java) - Program that demonstrates the implementation of Kruskal's algorithm.
 69. [GSSArray](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Gssarray.java) - Program demonstrates the working of Growable Self Sorting Array.
 70. [Ceiling Floor](https://github.com/PrajaktaSathe/Java/blob/main/Programs/CeilingFloor.java) - Program that demonstrates to find ceiling and floor number in an array
+71. [Floyd Warshall Algorithm](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Floyd_Warshall_Algorithm.java) - Program for solving the All Pairs Shortest Path problem where to find shortest distances between every pair of vertices in a given edge weighted directed Graph.
+72. [Find element with function interface](https://github.com/PrajaktaSathe/Java/blob/main/Programs/FindIndexValue.java) - To find element at a index using function interface
+73. [Rabin-Karp Algorithm](https://github.com/PrajaktaSathe/Java/blob/main/Programs/RabinKarp.java) - Program that demonstrates Rabin-Karp algorithm used for pattern matching and string searches
+74. [Bellman Ford Algorithm](https://github.com/PrajaktaSathe/Java/blob/main/Programs/BellmanFord.java) - Program that demonstrates Bellman Ford algorithm used to find the shortest path from a vertex to all other vertices of a weighted graph.
+75. [Huffman Coding](https://github.com/PrajaktaSathe/Java/blob/main/Programs/HuffmanCoding.java) - Program that demonstrates Huffman Coding for data compression.
+76. [ADT Fraction Program](https://github.com/PrajaktaSathe/Java/blob/main/Programs/ADTFractionApp.java) - Program to demontrate how to deal with numarators and denomenator
+77. [Number Array without duplicate elements](https://github.com/PrajaktaSathe/Java/blob/main/Programs/NoDupArray.java) - Program to demontrate Number array without duplicate elements
+78. [Depth First Search](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Gssarray.java) - Program demonstrates Depth First Search algorithm
+79. [Breath First Search](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Gssarray.java) - Program demonstrates Breath First Search algorithm
+80. [Number Of Digits](https://github.com/Raunak49/Java/blob/digits/NumberOfDigit.java) - Program demonstrates number of digits
+81. [Circular integer Linkedlist](https://github.com/PrajaktaSathe/Java/tree/main/Programs/Circular%20Integer%20LinkedList) - Program shows circular linkedlist operations 
+82. [SwitchingLetters](https://github.com/PrajaktaSathe/Java/tree/main/Programs/SwitchingLetters.java) - Program that demonstrates switching letters according to given indexes.
+83. [Matrix Multiplication](https://github.com/siddhant2002/Java-1/blob/main/Programs/matrix/Matrix_Multiply.java) - Program to multiply two matrices.
+84. [Sieve of Eratosthenes](https://github.com/siddhant2002/Java-1/blob/main/Programs/Sieve_Of_Eratosthenes.java) - Program to multiply two matrices.
+85. [Reverse a LinkedList](https://github.com/siddhant2002/Java-1/blob/main/Programs/ReverseList.java) - Program to reverse a linkedList.
+86. [Peg Solitaire](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Games/peg-solitaire/) - Peg Solitaire Game
+87. [PrintPattern](https://github.com/arshcoder13/Java/blob/main/Programs/PrintPattern.java) - Print Pattern using Nested For Loops.
+88. [Two Sum](https://github.com/siddhant2002/Java-1/blob/main/Programs/Two_Sum.java) - Sum of two elements which is equal to the target element.
+89. [ToDO List](./Programs/ToDoList.java) - Simple ToDo list program.
+90. [Ceaser Cipher Encryption](./Programs/CeaserCipher.java) - Encrypt Text with Ceaser Cipher Methodology.
+91. [Recursion](./Programs/Check_If_Sorted.java) - Check if an Array is sorted using recursion.
+92. [Patterns](./Programs/patterns) - Print out patterns in terminal (Steps included).
+93. [Lucky Number](https://github.com/PrajaktaSathe/Java/blob/main/Programs/LuckyNumber.java) - Program to check if the given number is a Lucky Number or not.
+94. [Knapsack Problem](https://github.com/PrajaktaSathe/Java/blob/main/Programs/KnapSack.java) - Program to solve the 0/1 Knapsack problem using Dynamic Programming Approach.
+95. [Strassen's Multiplication](https://github.com/PrajaktaSathe/Java/blob/main/Programs/StrassensMultiplication.java) - Program to multiply two square matrices using Strassen's Multiplication method.
+96. [Xor Palindrome](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Xorpalindrome.java) - Program/Solution to Xor Palindrome
+97. [Streams API](./Programs/JavaStreams.java) - Program to demo the Java Stream API with String and Integer Lists.
+98.[Stack](https://github.com/PrajaktaSathe/Java/blob/main/Stack.java)-Program to demo the stack implementation
+99.[RotateLinkedList](https://github.com/PrajaktaSathe/Java/blob/main/Programs/RotateLinkedList.java)-Program to demo rotating a linked list
+100. [ReverseString](https://github.com/PrajaktaSathe/Java/blob/main/ReverseString.java) -Program to reverse a String using the java method substring.
+101.[Overriding](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Overriding.java)-Program to demo overriding in java
 
 # Contributors - 
 ## A big thank you to all our contributors!!!
