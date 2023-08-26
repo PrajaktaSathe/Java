@@ -1,3 +1,5 @@
+//A Simple JAVA Program which checks if a string entered by the user is palindromic or not
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
