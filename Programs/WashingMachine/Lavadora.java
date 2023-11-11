@@ -1,4 +1,4 @@
-/*
+package Programs.WashingMachine;/*
  *Se ha creado la clase Lavadora para realizar los metodos requeridos del funcionamiento de una lavadora,
  utilizando la encapsulacion correcta de metodos y variables.
  *Se solicito que el unico metodo visible sea el metodo 

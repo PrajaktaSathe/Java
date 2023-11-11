@@ -1,8 +1,12 @@
-// Fin the two non-repeating elements in an array where elements occur two times.
-package BitManipulation;
+package Programs;// Fin the two non-repeating elements in an array where elements occur two times.
 import java.util.*;
 import java.lang.*;
 
+/**
+ * BugFix
+ * Descriptions:
+ * 1. Added package name
+ */
 public class TwoElementsOccurOnceWhileOthersOccurTwice {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

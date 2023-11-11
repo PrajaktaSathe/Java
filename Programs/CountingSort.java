@@ -1,7 +1,15 @@
 // Program to implement counting sort
+package Programs;
 import java.util.Arrays;
- 
-public class CountingSortMain {
+
+/**
+ * BugFix
+ * Descriptions:
+ * 1. Renamed class name from CountingSortMain to CountingSort
+ * 2. Added package name
+ * 3. Optimized imports
+ */
+public class CountingSort {
  
  public static void main(String[] args) {
     System.out.println("Before Sorting : ");

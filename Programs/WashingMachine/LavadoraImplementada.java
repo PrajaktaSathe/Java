@@ -1,3 +1,5 @@
+package Programs.WashingMachine;
+
 import java.util.Scanner;
 
 /*

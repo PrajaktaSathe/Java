@@ -1,5 +1,5 @@
 // Program to demonstrate operations on complex numbers in Java -
-package ComplexNumsOps;
+package Programs;
 import java.util.Scanner; // For user-input
 class Complex {
 	double real1, real2, imag1, imag2;
@@ -73,7 +73,14 @@ class Complex {
 	
 };
 
-public class CmplxNumOps {
+/**
+ * BugFix
+ * Descriptions:
+ * 1. Renamed class name from CmplxNumOps to Calculator
+ * 2. Added package name
+ * 3. Optimized imports
+ */
+public class ComplexNosOps {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int choice = 0;

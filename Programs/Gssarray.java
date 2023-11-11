@@ -4,18 +4,17 @@ Date - 23/10/21
 Topic - Application of classes in Java
 Program to implement growable self sorting array(GSSArray)
 */
+package Programs;
 
-import java.util.*;
+import java.util.Scanner;
 
-class GSSArray
-{
-    private int [] arr;
+class GSSArray {
+    private int[] arr;
     private int size;
     private int lastIndex = -1;
 
     //default constructor
-    GSSArray(int n)
-    {
+    GSSArray(int n) {
         arr = new int[n];
         size = n;
     }
@@ -23,11 +22,9 @@ class GSSArray
     int i = 0;
 
     //insert function
-    public void insert(int value)
-    {
+    public void insert(int value) {
         //if size is less than defined size regular addition
-        if (size > i)
-        {
+        if (size > i) {
             lastIndex++;
             arr[lastIndex] = value;
             i++;
@@ -35,8 +32,7 @@ class GSSArray
         }
 
         //if the size is more then it first increases the size and then performs addition in the array
-        else
-        {
+        else {
             increaseSize();
             lastIndex++;
             arr[lastIndex] = value;
@@ -46,38 +42,29 @@ class GSSArray
     }
 
     //incrase size function - it doubles the size and copie the elements of old array in the new array
-    private void increaseSize()
-    {
-        int[] arr1 = new int[arr.length*2];
-    		for(int i=0;i<arr.length;i++)
-    		{
-      			arr1[i] = arr[i];
-    		}
+    private void increaseSize() {
+        int[] arr1 = new int[arr.length * 2];
+        for (int i = 0; i < arr.length; i++) {
+            arr1[i] = arr[i];
+        }
 
-            arr=arr1;
+        arr = arr1;
     }
 
     //to check whether the element to be delted is present in the array is present or not
-    public boolean delete(int value) 
-    {
+    public boolean delete(int value) {
         int pos = -1;
-        for (int index = 0; index < lastIndex; index++) 
-        {
-            if (arr[index] == value) 
-            {
+        for (int index = 0; index < lastIndex; index++) {
+            if (arr[index] == value) {
                 pos = index;
                 break;
             }
         }
-        if (pos == -1) 
-        {
+        if (pos == -1) {
             return false;
-        }
-        else
-        {
+        } else {
             System.out.println(pos);
-            for (int i = pos ; i < size - 1; i++) 
-            {
+            for (int i = pos; i < size - 1; i++) {
                 arr[i] = arr[i + 1];
             }
             i--;
@@ -87,38 +74,38 @@ class GSSArray
     }
 
     //display function
-    void display()
-    {
-    sort();
-    System.out.print("Elements in array:- \n");
-    for(int i=0;i<=lastIndex;i++)
-    {
-        System.out.print(arr[i] + " ");
-    }
-    System.out.println();
+    void display() {
+        sort();
+        System.out.print("Elements in array:- \n");
+        for (int i = 0; i <= lastIndex; i++) {
+            System.out.print(arr[i] + " ");
+        }
+        System.out.println();
     }
 
     //function to sort the incoming elements
-    void sort()
-    {
-      int temp;
-      for(int i=0;i<=lastIndex;i++)
-      {
-          for(int j=i+1;j<=lastIndex;j++)
-          {
-              if(arr[i]>arr[j])
-              {
-                 temp = arr[i];
-                 arr[i] = arr[j];
-                 arr[j] = temp;
-              }
-          }
-      }
+    void sort() {
+        int temp;
+        for (int i = 0; i <= lastIndex; i++) {
+            for (int j = i + 1; j <= lastIndex; j++) {
+                if (arr[i] > arr[j]) {
+                    temp = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = temp;
+                }
+            }
+        }
     }
 }
 
-class Gssarray
-{
+/**
+ * BugFix
+ * Descriptions:
+ * 1. Added public modifier to main class
+ * 2. Added package name
+ * 3. Optimized imports
+ */
+public class Gssarray {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         GSSArray gs = new GSSArray(5);

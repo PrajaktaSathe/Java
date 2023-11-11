@@ -1,3 +1,5 @@
+package Programs.Games;
+
 public class MaximumSubArraySum {
     //Maximum Subarray Sum using Divide and Conquer algorithm
 
@@ -41,5 +43,4 @@ public class MaximumSubArraySum {
         return Math.max (maxLeftRight, leftMax + rightMax);
     }
 
-    C:\Users\Ayse\Desktop\Java\Programs\Games\ MaximumSubArraySum
 }

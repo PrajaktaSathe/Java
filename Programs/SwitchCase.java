@@ -1,6 +1,10 @@
-// Program to demonstrate switch case statements in Java 
-package switchCase;
+package Programs;// Program to demonstrate switch case statements in Java
 import java.util.Scanner;
+/**
+ * BugFix
+ * Descriptions:
+ * 1. Added package name
+ */
 public class SwitchCase {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -19,45 +19,45 @@ It is very easy to contribute, you may follow these steps -
 6. Open up a PR. It will be merged after review.
 
 ## Programs:
-1. [Abstract Class](https://github.com/PrajaktaSathe/Java/blob/main/Programs/abstractClass.java) - Program to demonstrate abstract classes in Java
-2. [Rectangle Area](https://github.com/PrajaktaSathe/Java/blob/main/Programs/areaRect.java) - Calculates area of a rectangle
-3. [Arithmetic exceptions](https://github.com/PrajaktaSathe/Java/blob/main/Programs/arithExceptions.java) - Program to show Arithmetic Exception Error handling
-4. [Array Lists](https://github.com/PrajaktaSathe/Java/blob/main/Programs/arrayLists.java) - Program to show list of strings in java
-5. [Array Out Of Bounds](https://github.com/PrajaktaSathe/Java/blob/main/Programs/arrayOutOfBounds.java) - Program to show ArrayOutOfBoundsException Error handling
-6. [Bank System](https://github.com/PrajaktaSathe/Java/blob/main/Programs/bankSystem.java) - Using concepts of object-oriented programming develop solution for banking system (create account, deposit money, withdraw etc.)
-7. [Book Shop](https://github.com/PrajaktaSathe/Java/blob/main/Programs/bookShop.java) - Class for book shop inventory management-
+1. [Abstract Class](https://github.com/PrajaktaSathe/Java/blob/main/Programs/AbstractClass.java) - Program to demonstrate abstract classes in Java
+2. [Rectangle Area](https://github.com/PrajaktaSathe/Java/blob/main/Programs/AreaRect.java) - Calculates area of a rectangle
+3. [Arithmetic exceptions](https://github.com/PrajaktaSathe/Java/blob/main/Programs/ArithExceptions.java) - Program to show Arithmetic Exception Error handling
+4. [Array Lists](https://github.com/PrajaktaSathe/Java/blob/main/Programs/ArrayListProg.java) - Program to show list of strings in java
+5. [Array Out Of Bounds](https://github.com/PrajaktaSathe/Java/blob/main/Programs/ArrayOutOfBounds.java) - Program to show ArrayOutOfBoundsException Error handling
+6. [Bank System](https://github.com/PrajaktaSathe/Java/blob/main/Programs/BankSystem.java) - Using concepts of object-oriented programming develop solution for banking system (create account, deposit money, withdraw etc.)
+7. [Book Shop](https://github.com/PrajaktaSathe/Java/blob/main/Programs/BookShop.java) - Class for book shop inventory management-
 8. [Bubble Sort](./Programs/BubbleSort.java) - Program to sort an array in Java (using bubble sort)
 9. [Calculator](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Calculator.java) - Calculator for basic math operations
 10. [Circular Queue](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Circular_Queue.java) - Demonstrates implementation of a circular queue 
 
-11. [Complex Nums Ops](https://github.com/PrajaktaSathe/Java/blob/main/Programs/ComplexNumsOps.java) - Program to demonstrate operations on complex numbers in Java
-12. [Constructors](https://github.com/PrajaktaSathe/Java/blob/main/Programs/constructors.java) - Program to demonstrate the use of constructors in Java
-13. [Derived Constructor](https://github.com/PrajaktaSathe/Java/blob/main/Programs/derivedConstructor.java) - Program to demonstrate the order of constructor call
-14. [EduEmpDB](https://github.com/PrajaktaSathe/Java/blob/main/Programs/eduEmpDB.java) - Program to simulate maintainance of a database of emplooyees, showcases thw relationships between the classes
-15. [Edu Institute](https://github.com/PrajaktaSathe/Java/blob/main/Programs/eduInstitute.java) - Program to simulate student registration to an educational institute
-16. [Exc Handling](https://github.com/PrajaktaSathe/Java/blob/main/Programs/excHandling.java) - Program to demonstrate crete an ararylist and update, delete and view elements in the list
-17. [Except Throw](https://github.com/PrajaktaSathe/Java/blob/main/Programs/excThrow.java) - Program to demonstrate handling of a NullPointerException
-18. [factoflargenum](https://github.com/PrajaktaSathe/Java/blob/main/Programs/factoflargenum.java) - Program to demonstrate Factorial of Large numbers in Java using BigInteger
-19. [fibo](https://github.com/PrajaktaSathe/Java/blob/main/Programs/fibo.java) - Program to fibonacci numbers until N
-20. [For Loop](https://github.com/PrajaktaSathe/Java/blob/main/Programs/ForLoop.java) - Program to demonstrate the use of for loop
+11. [Complex Nums Ops](https://github.com/PrajaktaSathe/Java/blob/main/Programs/ComplexNosOps.java) - Program to demonstrate operations on complex numbers in Java
+12. [Constructors](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Constructors.java) - Program to demonstrate the use of constructors in Java
+13. [Derived Constructor](https://github.com/PrajaktaSathe/Java/blob/main/Programs/DerivedConstructors.java) - Program to demonstrate the order of constructor call
+14. [EduEmpDB](https://github.com/PrajaktaSathe/Java/blob/main/Programs/EduEmpDB.java) - Program to simulate maintainance of a database of emplooyees, showcases thw relationships between the classes
+15. [Edu Institute](https://github.com/PrajaktaSathe/Java/blob/main/Programs/EduInstitute.java) - Program to simulate student registration to an educational institute
+16. [Exc Handling](https://github.com/PrajaktaSathe/Java/blob/main/Programs/ArrayListProg.java) - Program to demonstrate crete an ararylist and update, delete and view elements in the list
+17. [Except Throw](https://github.com/PrajaktaSathe/Java/blob/main/Programs/ExceptionThrowExample.java) - Program to demonstrate handling of a NullPointerException
+18. [factoflargenum](https://github.com/PrajaktaSathe/Java/blob/main/Programs/FactorialExample.java) - Program to demonstrate Factorial of Large numbers in Java using BigInteger
+19. [fibo](https://github.com/PrajaktaSathe/Java/blob/main/Programs/FibonacciExample.java) - Program to fibonacci numbers until N
+20. [For Loop](https://github.com/PrajaktaSathe/Java/blob/main/Programs/ForLoopExample.java) - Program to demonstrate the use of for loop
 
 21. [Functional Interfaces](https://github.com/PrajaktaSathe/Java/blob/main/Programs/FunctionalInterfaces.java) - Program to demonstrate how to use the Function and BiFunction functional interfaces
 22. [Gen Class Method](https://github.com/PrajaktaSathe/Java/blob/main/Programs/GenClassMethod.java) - Program to demonstrate method instanstiation in Java 
-23. [gen Prog](https://github.com/PrajaktaSathe/Java/blob/main/Programs/genProg.java) - Demonstrates generic programming
-24. [hello World](https://github.com/PrajaktaSathe/Java/blob/main/Programs/helloWorld.java) - Simple Java helloworld program 
+23. [gen Prog](https://github.com/PrajaktaSathe/Java/blob/main/Programs/GenProg.java) - Demonstrates generic programming
+24. [hello World](https://github.com/PrajaktaSathe/Java/blob/main/Programs/HelloWorld.java) - Simple Java helloworld program 
 25. [input](https://github.com/PrajaktaSathe/Java/blob/main/Programs/input.java) - Program to demostrate accepting an input in java
-26. [Integers](https://github.com/PrajaktaSathe/Java/blob/main/Programs/integers.java) - Simple java program to compare integers with each other.
+26. [Integers](https://github.com/PrajaktaSathe/Java/blob/main/Programs/IntegersExample.java) - Simple java program to compare integers with each other.
 27. [Integer To Word](https://github.com/PrajaktaSathe/Java/blob/main/Programs/IntegerToWord.java) - This program converts numbers into its word counterparts.
 28. [JavaC lasses](https://github.com/PrajaktaSathe/Java/blob/main/Programs/JavaClasses.java) - Program to demonstrate the use of classes and objects (basic)
-29. [Largest Number](https://github.com/PrajaktaSathe/Java/blob/main/Programs/largestNum.java) - Program to demonstrate the use of if-else if-else statements
-30. [Lists](https://github.com/PrajaktaSathe/Java/blob/main/Programs/list_1.java) - Shows array list of strings, integers and linked list for numbers
+29. [Largest Number](https://github.com/PrajaktaSathe/Java/blob/main/Programs/LargestNum.java) - Program to demonstrate the use of if-else if-else statements
+30. [Lists](https://github.com/PrajaktaSathe/Java/blob/main/Programs/ListDataTypesDemo.java) - Shows array list of strings, integers and linked list for numbers
 31. [Matrix Addition](https://github.com/PrajaktaSathe/Java/blob/main/Programs/MatrixAdd.java) - Program to add two matrices in Java
 
 31. [Multiple Inheritance](https://github.com/PrajaktaSathe/Java/blob/main/Programs/MultipleInheritance.java) - Program to demonstrate multiple inheritance
 32. [Nested Try](https://github.com/PrajaktaSathe/Java/blob/main/Programs/GenClassMethod.java) - Program to demonstrate a nested try..catch 
 33. [Number To Roman](https://github.com/PrajaktaSathe/Java/blob/main/Programs/NumberToRoman.java) - Program to convert a number to roman numerals
-34. [Overloading](https://github.com/PrajaktaSathe/Java/blob/main/Programs/overloading.java) - Program to demonstrate overloading in Java 
-35. [PrimeNo](https://github.com/PrajaktaSathe/Java/blob/main/Programs/primeNumbers.java) - Program to find out the prime numbers in a given range in Java
+34. [Overloading](https://github.com/PrajaktaSathe/Java/blob/main/Programs/OverloadingDemo.java) - Program to demonstrate overloading in Java 
+35. [PrimeNo](https://github.com/PrajaktaSathe/Java/blob/main/Programs/PrimeNumbers.java) - Program to find out the prime numbers in a given range in Java
 36. [Square Every Digit](https://github.com/PrajaktaSathe/Java/blob/main/Programs/SquareEveryDigit.java) - This program finds the square of a number.
 37. [Static Count](https://github.com/PrajaktaSathe/Java/blob/main/Programs/StaticCount.java) - Program to demonstrates static count
 38. [Static Member Functions](https://github.com/PrajaktaSathe/Java/blob/main/Programs/StaticMemberFunctions.java) - Program to demonstrate the use of static member functions -
@@ -136,4 +136,15 @@ It is very easy to contribute, you may follow these steps -
 
 Made with [contributors-img](https://contrib.rocks).
 
-**Do ⭐ the repo if you find it useful!!** ☺😇☺ 
+Raised a bug:
+[Bug]: Project build / compilation fail when we try to run any class. #179
+
+Modified classes so it can be build in our local IDE.As it was giving compile time error or build failure while running any class. ☺
+
+Also added JavaDoc on each modified classes with descriptions.
+Few classes do required Java version JDK8+ version hence didnt modified.
+
+Once PR merged with main/master branch then will remove BugFix JavaDoc and will update
+Readme file as well.
+
+**Do ⭐ the repo if you find it useful!!** ☺😇☺

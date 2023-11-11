@@ -1,4 +1,4 @@
-//This Java program demonstrates the implemntation of Trie Data structure in Java
+package Programs;//This Java program demonstrates the implemntation of Trie Data structure in Java
 //This Implementation only supports lowercase letters
 
 class TrieNode{
@@ -76,7 +76,11 @@ class Trie{
 }
 
 
-
+/**
+ * BugFix
+ * Descriptions:
+ * 1. Added package name
+ */
 public class Trie_Implementation {
 	
 	public static void main(String[] args) {

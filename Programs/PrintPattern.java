@@ -1,3 +1,5 @@
+package Programs;
+
 /**
  * Program to print a pattern using nested for loops
  * eg:- *
@@ -8,6 +10,12 @@
  * @author arshcoder13 - https://github.com/arshcoder13/
  **/
 
+/**
+ * BugFix
+ * Descriptions:
+ * 1. Added package name
+ * 2. Optimized imports
+ */
 public class PrintPattern {
 
     public static void main(String args[]){

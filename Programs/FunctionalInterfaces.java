@@ -1,8 +1,15 @@
 // Program to demonstrate how to use the Function and BiFunction functional interfaces
+package Programs;
 
-import java.util.function.Function;
 import java.util.function.BiFunction;
+import java.util.function.Function;
 
+/**
+ * BugFix
+ * Descriptions:
+ * 1. Added package name
+ * 2. Optimized imports
+ */
 public class FunctionalInterfaces {
 
     /**
@@ -10,7 +17,6 @@ public class FunctionalInterfaces {
      * type of the input and the type of the output. They can be written as
      * anonymous classes that implement the Function interface, but they are more
      * commonly written as lambda functions.
-     * 
      */
     static Function<String, String> sayHello = name -> "Hello, " + name;
 

@@ -1,3 +1,6 @@
+package Programs.Games.*;
+import Programs.Games.PegSolitaireGame;
+
 import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;
@@ -19,7 +22,7 @@ import java.util.Random;
  * @author Mert Gürşimşir
  */
 
-public class PegSolitaire extends JFrame implements PegSolitaireGame{
+public class PegSolitaire extends JFrame implements PegSolitaireGame {
 	private GridLayout grid;
 	private JButton[][] board;
 	private	JButton reset;

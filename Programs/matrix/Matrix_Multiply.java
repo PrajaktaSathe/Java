@@ -1,5 +1,5 @@
 // Program to multply two matrices in Java
-package matrix;
+package Programs.matrix;
 import java.util.Scanner;
 public class Matrix_Multiply {
 	public static void main(String[] args) {

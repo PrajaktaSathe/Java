@@ -51,15 +51,15 @@ public class ToDoList {
 
     static void viewTask(ArrayList<String> tasks) {
         if (tasks.isEmpty()) {
-            System.out.println("""
-                    --------------------
-                      No current tasks!
-                    --------------------""");
+            System.out.println(""
+                    +"--------------------"+
+                      "No current tasks!"+
+                    "--------------------");
         } else {
-            System.out.println("""
-                    --------------------
-                           Tasks
-                    --------------------""");
+            System.out.println(""
+                    +"--------------------"+
+                           "Tasks"+
+                    "--------------------");
             int counter = 1;
             for (int i = 0; i < tasks.size(); i++) {
                 System.out.println(counter + "- " + tasks.get(i));

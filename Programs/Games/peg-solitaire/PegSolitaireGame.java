@@ -1,3 +1,4 @@
+package Programs.Games.*;
 public interface PegSolitaireGame{
 	/**
 	 * Method to create first board from scratch.
