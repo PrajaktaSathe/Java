@@ -1,9 +1,17 @@
+package Programs;
+
 import java.util.List;
 import java.util.stream.Collectors;
 
 /*
      A demo for the Java Streams API
      Includes examples with lists of numbers and words
+ */
+/**
+ * BugFix
+ * Descriptions:
+ * 1. Added package name
+ * 2. Optimized imports
  */
 public class JavaStreams {
 
@@ -14,7 +22,7 @@ public class JavaStreams {
             List.of("apple", "bread", "tree", "computer", "name", "brain", "arm");
 
     //Use stream to find all numbers that are greater than 10
-    public static List<Integer> findAllNumbersGreaterThanTen(List<Integer> numbers){
+    public static List<Integer> findAllNumbersGreaterThanTen(List<Integer> numbers) {
         return numbers.stream()
                 .filter(number -> number > 10)
                 .sorted()
@@ -22,7 +30,7 @@ public class JavaStreams {
     }
 
     //Use stream to find all numbers that contain the letter a
-    public static List<String> findAllWordsThatContainLetterA(List<String> words){
+    public static List<String> findAllWordsThatContainLetterA(List<String> words) {
         return words.stream()
                 .filter(word -> word.contains("a"))
                 .collect(Collectors.toList());

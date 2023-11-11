@@ -1,5 +1,14 @@
+package Programs;
 import java.util.function.BiFunction;
-public class MyClass {
+
+/**
+ * BugFix
+ * Descriptions:
+ * 1. Renamed class file and name from MyClass to FindIndexValue
+ * 2. Added package name
+ * 3. Optimized imports
+ */
+public class FindIndexValue {
     public static final BiFunction<int[],Integer, Integer> fun = (i, val) -> {
         if(val >= i.length){
             return -999;

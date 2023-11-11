@@ -1,62 +1,61 @@
-//Contributed by Dev jr - https://github.com/Dev-jr-8 
+//Contributed by Dev jr - https://github.com/Dev-jr-8
+package Programs;
 
-class Solution
-{
+import java.util.Scanner;
+
+/**
+ * BugFix
+ * Descriptions:
+ * 1. Renamed class file and name from Solution to MergeKsortedLists
+ * 2. Added package name
+ * 3. Optimized imports
+ */
+public class MergeKsortedLists {
     //Function to merge K sorted linked list.
     //Logic for merging two sorted linked list
-    Node mergetwolist(Node head1, Node head2)
-    {
-     Node a = head1;
-     Node b = head2;
-     Node head = null;
-     Node tail = null;
-     
-     if(a==null)return b;
-     if(b==null)return a;
-     
-     if(a.data<b.data)
-     {
-        head = a;
-        tail = a;
-        a = a.next;
-     }
-     else
-     {
-         head = b;
-         tail = b;
-         b = b.next;
-     }
-     
-     while(a!=null && b!=null)
-     {
-         if(a.data<b.data)
-         {
-            tail.next = a;
+    MergeKsortedLists_Node mergetwolist(MergeKsortedLists_Node head1, MergeKsortedLists_Node head2) {
+        MergeKsortedLists_Node a = head1;
+        MergeKsortedLists_Node b = head2;
+        MergeKsortedLists_Node head = null;
+        MergeKsortedLists_Node tail = null;
+
+        if (a == null) return b;
+        if (b == null) return a;
+
+        if (a.data < b.data) {
+            head = a;
             tail = a;
             a = a.next;
-        }
-        else
-        {
-            tail.next = b;
+        } else {
+            head = b;
             tail = b;
             b = b.next;
         }
-     }
-     if(a==null)tail.next=b;
-     if(b==null)tail.next=a;
-     
-     return head;
-   } 
-    
-    Node mergeKList(Node[]arr,int K)
-    {
+
+        while (a != null && b != null) {
+            if (a.data < b.data) {
+                tail.next = a;
+                tail = a;
+                a = a.next;
+            } else {
+                tail.next = b;
+                tail = b;
+                b = b.next;
+            }
+        }
+        if (a == null) tail.next = b;
+        if (b == null) tail.next = a;
+
+        return head;
+    }
+
+    MergeKsortedLists_Node mergeKList(MergeKsortedLists_Node[] arr, int K) {
         //Add your code here.
-        Node ans = null;
+        MergeKsortedLists_Node ans = null;
         //Taking pair of sorted linked list and merging them, Storing their start point(head)
         //in ans reference variable
-        for(Node i : arr)
-        {
-            ans = mergetwolist(i,ans);
+        for (MergeKsortedLists_Node i : arr) {
+            ans = mergetwolist(i, ans);
         }
         return ans;
     }
@@ -67,64 +66,56 @@ class Solution
 //geeksforgeeks driver code
 
 //{ Driver Code Starts
-    import java.util.*;
 
-    class Node
-    {
-        int data;
-        Node next;
-        
-        Node(int key)
-        {
-            data = key;
-            next = null;
+
+class MergeKsortedLists_Node {
+    int data;
+    MergeKsortedLists_Node next;
+
+    MergeKsortedLists_Node(int key) {
+        data = key;
+        next = null;
+    }
+}
+
+
+class GfG {
+    public static void printList(MergeKsortedLists_Node node) {
+        while (node != null) {
+            System.out.print(node.data + " ");
+            node = node.next;
         }
     }
-    
-    
-    class GfG
-    {
-        public static void printList(Node node)
-        {
-            while(node != null)
-            {
-                System.out.print(node.data + " ");
-                node = node.next;
-            }
-        }
-        
-        public static void main (String[] args) {
-            Scanner sc = new Scanner(System.in);
-            
-            int t = sc.nextInt();
-            while(t-- > 0)
-            {   
-                int N = sc.nextInt();
-                
-                Node []a = new Node[N];
-                
-                for(int i = 0; i < N; i++)
-                {
-                    int n = sc.nextInt();
-                    
-                    Node head = new Node(sc.nextInt());
-                    Node tail = head;
-                    
-                    for(int j=0; j<n-1; j++)
-                    {
-                        tail.next = new Node(sc.nextInt());
-                        tail = tail.next;
-                    }
-                    
-                    a[i] = head;
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int t = sc.nextInt();
+        while (t-- > 0) {
+            int N = sc.nextInt();
+
+            MergeKsortedLists_Node[] a = new MergeKsortedLists_Node[N];
+
+            for (int i = 0; i < N; i++) {
+                int n = sc.nextInt();
+
+                MergeKsortedLists_Node head = new MergeKsortedLists_Node(sc.nextInt());
+                MergeKsortedLists_Node tail = head;
+
+                for (int j = 0; j < n - 1; j++) {
+                    tail.next = new MergeKsortedLists_Node(sc.nextInt());
+                    tail = tail.next;
                 }
-                
-                Solution g = new Solution();
-                 
-                Node res = g.mergeKList(a,N);
-                if(res!=null)
-                    printList(res);
-                System.out.println();
+
+                a[i] = head;
             }
+
+            MergeKsortedLists g = new MergeKsortedLists();
+
+            MergeKsortedLists_Node res = g.mergeKList(a, N);
+            if (res != null)
+                printList(res);
+            System.out.println();
         }
     }
+}

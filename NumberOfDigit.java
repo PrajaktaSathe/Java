@@ -8,7 +8,6 @@ num=num%10;
 this algorithm has a time complexity of O(n)
 we can simply calculate it by log(number)+1.
 here is the code for it :- */
-import java.util.*;
 
 class NumberOfDigit
 {

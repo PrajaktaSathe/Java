@@ -1,5 +1,11 @@
 // Program to demonstrate the use of static member functions -
-package staticMemberFunctions;
+package Programs;
+/**
+ * BugFix
+ * Descriptions:
+ * 1. Added package name
+ * 2. Optimized imports
+ */
 class staticFunc {
 	static int a = 5, b;
 	static void method(int x) {

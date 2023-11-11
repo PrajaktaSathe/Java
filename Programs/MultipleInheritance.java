@@ -9,7 +9,7 @@
 // Base class - student
 // Two derived classes - test, result (extends test and implements sports class)
 // Check for hierarchical inheritance (create another class for competitive exams)
-package multipleInheritance;
+package Programs;
 class Test {
 	int sub1, sub2, sub3;
 	void readData(int x, int y, int z) {
@@ -34,6 +34,11 @@ class Result extends Test implements sports {
 		System.out.println("Total marks = " + total);
 	}
 }
+/**
+ * BugFix
+ * Descriptions:
+ * 1. Added package name
+ */
 public class MultipleInheritance {	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

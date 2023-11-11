@@ -11,12 +11,18 @@ Take 2 numbers(a&b)from the user and an operation as follows:
 Calculate the result according to the operation given and display it to the user.
 */
 
-package chapter3sol;
+package Programs;
 
-import java.util.*;
+import java.util.Scanner;
 
-
-public class s1 {
+/**
+ * BugFix
+ * Descriptions:
+ * 1. Renamed class name from s1 to Calculator
+ * 2. Added package name
+ * 3. Optimized imports
+ */
+public class Calculator {
        public static void main(String[] args) { 
               Scanner sc = new Scanner(System.in);
               System.out.println("Enter First Number: ");

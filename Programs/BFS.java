@@ -1,9 +1,7 @@
 // bfs - for unweighted connected graph
 
-package project0;
+package Programs;
 
-import java.util.Arrays;
-import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -52,7 +50,14 @@ class Graph {
 
 }
 
-public class Main {
+/**
+ * BugFix
+ * Descriptions:
+ * 1. Renamed class name from Main to BFS
+ * 2. Added package name
+ * 3. Optimized imports
+ */
+public class BFS {
 	public static void main(String args[]) {
 
 		Graph g = new Graph(4);

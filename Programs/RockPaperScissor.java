@@ -1,7 +1,16 @@
+package Programs;
+
 import java.util.Random;
 import java.util.Scanner;
 
-public class Rockpaperscissor {
+/**
+ * BugFix
+ * Descriptions:
+ * 1. Renamed class file and name from Rockpaperscissor to RockPaperScissor
+ * 2. Added package name
+ * 3. Optimized imports
+ */
+public class RockPaperScissor {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -13,9 +22,9 @@ public class Rockpaperscissor {
         }
 
         Random random = new Random();
-        int computer = random.nextInt(1, 4);
-        System.out.println("YOU CHOOSE: "+user);
-        System.out.println("Computer Choose: "+computer);
+        int computer = random.nextInt(4);
+        System.out.println("YOU CHOOSE: " + user);
+        System.out.println("Computer Choose: " + computer);
 
         if (user == 1 && computer == 1 || user == 2 && computer == 2 || user == 3 && computer == 3) {
             System.out.println("Match Tie");

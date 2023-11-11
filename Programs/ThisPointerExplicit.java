@@ -1,5 +1,11 @@
-// Program to demonstrate 'this' pointer (explicit method) - 
-package thisPointerExplicit;
+package Programs;
+
+// Program to demonstrate 'this' pointer (explicit method) -
+/**
+ * BugFix
+ * Descriptions:
+ * 1. Added package name
+ */
 class Box {
 	int len = 50;
 	void display() {

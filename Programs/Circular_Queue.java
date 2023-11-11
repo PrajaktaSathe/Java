@@ -1,3 +1,10 @@
+package Programs;
+
+/**
+ * BugFix
+ * Descriptions:
+ * 1. Added package name
+ */
 public class Circular_Queue {
 
 	static class Node { 

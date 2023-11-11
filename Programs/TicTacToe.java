@@ -1,7 +1,14 @@
-package games;
+package Programs;
+
 import java.util.HashSet;
 import java.util.Scanner;
 
+/**
+ * BugFix
+ * Descriptions:
+ * 1. Added package name
+ * 2. Optimized imports
+ */
 public class TicTacToe {
     static HashSet<Integer>ur_set = new HashSet<Integer>();
     static HashSet<Integer>comp_set = new HashSet<Integer>();

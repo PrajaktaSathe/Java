@@ -1,3 +1,5 @@
+package Programs;
+
 import java.util.*;
 
 /**
@@ -19,6 +21,14 @@ class SinglyLinkedNode {
  *      description</a>
  * Time complexity O(n), Space O(1)
  */
+
+/**
+ * BugFix
+ * Descriptions:
+ * 1. Added package name
+ * 2. Optimized imports
+ */
+
 public class RotateLinkedList {
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {

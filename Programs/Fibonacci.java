@@ -1,5 +1,4 @@
 // Java program for Fibonacci Search
-import java.util.*;
 
 class Fibonacci {
 	public static int min(int x, int y)

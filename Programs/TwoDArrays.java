@@ -1,4 +1,6 @@
-// Program to demonstrate 2D arrays (Hard-coded) - 
+package Programs;
+
+// Program to demonstrate 2D arrays (Hard-coded) -
 // package TwoDArrays;
 class TwoD {
 	private int i, j;
@@ -27,6 +29,11 @@ class TwoD {
 	}
 }
 
+/**
+ * BugFix
+ * Descriptions:
+ * 1. Added package name
+ */
 public class TwoDArrays {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

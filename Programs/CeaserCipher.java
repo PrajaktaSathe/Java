@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class CeaserCipher {
     public static void main(String[] args) {
-        System.out.println("""
-                --------------------------------
-                 CEASER CIPHER ENCRYPT/ DECRYPT
-                --------------------------------
-                """);
+        System.out.println(""+
+                "--------------------------------"+
+                 "CEASER CIPHER ENCRYPT/ DECRYPT"+
+                "--------------------------------"+
+                "");
         Scanner sc = new Scanner(System.in);
         System.out.println("Encrypt or Decrypt:\n 1- Encryption\n 2- Decryption");
         int type = sc.nextInt();

@@ -1,7 +1,13 @@
-// Program to add all the numbers in an array - 
-package sumOfNos;
+package Programs;// Program to add all the numbers in an array -
 import java.util.Scanner;
-public class SumOfNos {
+/**
+ * BugFix
+ * Descriptions:
+ * 1. Renamed class file and name from SumOfNos to SumOfArrayNos
+ * 2. Added package name
+ * 3. Optimized imports
+ */
+public class SumOfArrayNos {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int sum = 0; // Initializing a variable for the sum of the numbers
