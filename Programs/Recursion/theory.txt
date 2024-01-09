@@ -1,0 +1,27 @@
+Recusrion is an assumption, in which we know the answer of the subproblem & using that we try to find the solution of the main problem.
+A function call itself is called Recusrion.
+
+it is not a data structure instead it is a way to write a program.
+
+Time and Space Complexity :-
+
+Time Complexity :-
+
+the time Complexity totally depends on the number of recursive calls your program made.
+
+example :- a simple factorial program using Recusrion take O(n) time while 
+The time complexity of a recursive Fibonacci sequence (fib(n) = fib(n-1) + fib(n-2)) is O(2^n)
+
+
+Space Complexity :-
+
+space complexity  refers to the amount of memory space used by the algorithm relative to the size of the input.
+In recursion, space complexity is influenced by the stack space used for function calls and the recursive depth.
+
+  
+when the time complexity increases to O(2^n), then It can be optimized using dynamic programming.
+
+
+
+This article is Contributed by Himanshu Jha.
+Connect with me on linkedin https://www.linkedin.com/in/himanshujhaa/
