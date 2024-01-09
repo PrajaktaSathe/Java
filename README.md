@@ -126,6 +126,9 @@ It is very easy to contribute, you may follow these steps -
 99.[RotateLinkedList](https://github.com/PrajaktaSathe/Java/blob/main/Programs/RotateLinkedList.java)-Program to demo rotating a linked list
 100. [ReverseString](https://github.com/PrajaktaSathe/Java/blob/main/ReverseString.java) -Program to reverse a String using the java method substring.
 101.[Overriding](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Overriding.java)-Program to demo overriding in java
+102.[Combination Sum](https://github.com/HIMANSHU-1504/Java/blob/main/Programs/Recursion/combinationSum.java) - Program to demonstrate combination sum.
+103.[Palindromic String](https://github.com/HIMANSHU-1504/Java/blob/main/Programs/Recursion/palindromeString.java) -Program to demonstrate Palindromic String using recursion.
+103.[Reverse Array](https://github.com/HIMANSHU-1504/Java/blob/main/Programs/Recursion/reverseArray.java) -Program to demonstrate Reverse an array using recursion.
 
 # Contributors - 
 ## A big thank you to all our contributors!!!
