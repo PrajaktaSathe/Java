@@ -32,5 +32,10 @@ public class combinationSum {
 }
 
 
+<<<<<<< HEAD
 // This article is Contributed by Himanshu Jha.
 // Connect with me on linkedin https://www.linkedin.com/in/himanshujhaa/
+=======
+This article is Contributed by Himanshu Jha.
+Connect with me on linkedin https://www.linkedin.com/in/himanshujhaa/
+>>>>>>> ac2d3cc604ad9612702aeac09180b1fa93dd5fec
