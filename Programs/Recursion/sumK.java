@@ -1,4 +1,4 @@
-// find subset whose sum is k, there is no infinte supplies
+// find subsequences whose sum is k, there is no infinte supplies
 
 //same as combination sum 1 but with some modification
 import java.util.*;
