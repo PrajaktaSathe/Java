@@ -1,4 +1,4 @@
-package Programs.Recursion;
+package Recursion;
 
 public class palindromeString {
 
@@ -22,3 +22,7 @@ public class palindromeString {
 
     }
 }
+
+
+// This article is Contributed by Himanshu Jha.
+// Connect with me on linkedin https://www.linkedin.com/in/himanshujhaa/

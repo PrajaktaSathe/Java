@@ -1,5 +1,3 @@
-package Programs.Recursion;
-
 import java.util.*;
 
 public class combinationSum {
@@ -32,3 +30,7 @@ public class combinationSum {
         System.out.println(res);
     }
 }
+
+
+// This article is Contributed by Himanshu Jha.
+// Connect with me on linkedin https://www.linkedin.com/in/himanshujhaa/
