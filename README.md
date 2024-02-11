@@ -127,6 +127,7 @@ It is very easy to contribute, you may follow these steps -
 100. [ReverseString](https://github.com/PrajaktaSathe/Java/blob/main/ReverseString.java) -Program to reverse a String using the java method substring.
 101.[Overriding](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Overriding.java)-Program to demo overriding in java
 102.[BitonicArraySearch](https://github.com/PrajaktaSathe/Java/blob/main/BitonicArraySearch.java)-Program to search in a Bitonic Array
+103.[Distinct Elements](https://github.com/PrajaktaSathe/Java/blob/main/DistinctElements.java)-program to obtain distinct elements of an array
 # Contributors - 
 ## A big thank you to all our contributors!!!
 
