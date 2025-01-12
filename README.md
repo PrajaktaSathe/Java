@@ -126,7 +126,7 @@ It is very easy to contribute, you may follow these steps -
 99.[RotateLinkedList](https://github.com/PrajaktaSathe/Java/blob/main/Programs/RotateLinkedList.java)-Program to demo rotating a linked list
 100. [ReverseString](https://github.com/PrajaktaSathe/Java/blob/main/ReverseString.java) -Program to reverse a String using the java method substring.
 101.[Overriding](https://github.com/PrajaktaSathe/Java/blob/main/Programs/Overriding.java)-Program to demo overriding in java
-
+102. [Binary Tree](https://github.com/PrajaktaSathe/Java/blob/main/Programs/binary_tree.java)- Program to implement Binary Tree Operations: Insertion, Deletion, and Search.
 # Contributors - 
 ## A big thank you to all our contributors!!!
 
