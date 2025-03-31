@@ -20,7 +20,7 @@ It is very easy to contribute, you may follow these steps -
 
 ## Programs:
 1. [Abstract Class](https://github.com/PrajaktaSathe/Java/blob/main/Programs/abstractClass.java) - Program to demonstrate abstract classes in Java
-2. [Rectangle Area](https://github.com/PrajaktaSathe/Java/blob/main/Programs/areaRect.java) - Calculates area of a rectangle
+2. [Rectangle Area](https://github.com/PrajaktaSathe/Java/blob/main/Programs/AreaRect.java) - Calculates area of a rectangle
 3. [Arithmetic exceptions](https://github.com/PrajaktaSathe/Java/blob/main/Programs/arithExceptions.java) - Program to show Arithmetic Exception Error handling
 4. [Array Lists](https://github.com/PrajaktaSathe/Java/blob/main/Programs/arrayLists.java) - Program to show list of strings in java
 5. [Array Out Of Bounds](https://github.com/PrajaktaSathe/Java/blob/main/Programs/arrayOutOfBounds.java) - Program to show ArrayOutOfBoundsException Error handling
