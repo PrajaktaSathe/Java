@@ -21,7 +21,7 @@ public class Student {
         [a-zA-Z]{2,7}: Matches the top-level domain (TLD), which must be 2 to 7 alphabetic characters long. This range is a common practice, but specific TLDs can be longer or shorter. 
         $: Asserts the end of the string.
          */
-        private static final String EMAIL_FORMAT = "(?=^.{4,40}$)[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\\.[a-zA-Z]{2,4}$"; //compiles te given regex string into pattern that can be used to reated matcher obj.
+        private static final String EMAIL_FORMAT = "(?=^.{4,40}$)[A-Za-z0-9._%+\\-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,7}$";; //compiles te given regex string into pattern that can be used to reated matcher obj.
         private static final Pattern EMAIL_PATTERN = Pattern.compile(EMAIL_FORMAT, Pattern.CASE_INSENSITIVE);
 
         //No-arg constructor for creating obj tht will be populated later
@@ -35,8 +35,6 @@ public class Student {
             //apply validation for age and email for range and format check
             setAge(age);
             setEmail(email); 
-            this.age = age;
-            this.email = email;
             this.faculty = faculty;
         }
 
@@ -83,8 +81,14 @@ public class Student {
                 throw new IllegalArgumentException("Email must not be null.");
             }
             String trimmed = email.trim(); //remove leading/trailing whitespace
-            if (!isBasicEmail(trimmed)) {
+            Matcher m = EMAIL_PATTERN.matcher(trimmed);
+            if (!m.matches()) {
                 throw new IllegalArgumentException("Email format is invalid.");
+            }
+            // Enforce gmail.com domain to catch typos like "@gmail.xom"
+            String lower = trimmed.toLowerCase();
+            if (!lower.endsWith("@gmail.com")) {
+                throw new IllegalArgumentException("Only gmail.com address are accepted.");
             }
             this.email = trimmed;
         }
@@ -92,12 +96,5 @@ public class Student {
         public void setFaculty(String faculty) {
             this.faculty = faculty;
         }
-
-        private boolean isBasicEmail(String email) {
-            if ( email == null) return false;
-            Matcher m = EMAIL_PATTERN.matcher(email);
-            return m.matches();
-        }
-
     }
 
