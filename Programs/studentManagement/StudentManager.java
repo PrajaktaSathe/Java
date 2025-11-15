@@ -13,7 +13,7 @@ public class StudentManager {
     //check existence by ID
     public boolean studentExists(String id) {
         if (id == null) return false;
-        return students.containsKey(id);
+        return students.containsKey(id.trim());
     }
 
     public boolean addStudent(Student s) {
@@ -24,6 +24,12 @@ public class StudentManager {
         if (students.containsKey(id) || findByEmail(s.getEmail()) != null){
             return false; //student with same ID exists
         }
+
+        //duplicate name (case-insensitive)
+        if (s.getName() != null && findByName(s.getName()) != null) {
+            return false;
+        }
+
         String email = s.getEmail();
         if ( email == null)  {
             return false;
@@ -31,6 +37,7 @@ public class StudentManager {
             students.put(id, s);
             return true; //successfully added
         }
+
     }
 
     public Student findById(String id) {
@@ -51,6 +58,20 @@ public class StudentManager {
         return null;
     } 
 
+    public Student findByName(String name) {
+        if ( name == null) return null;
+        String norm = normalizedName(name);
+        if (norm == null) return null;
+        for (Student s : students.values()) {
+            String sName = s.getName();
+            if (sName != null && norm.equals(normalizedName(sName))) {
+                return s;
+            }
+        }
+        return null;
+
+    }
+
     public boolean updateStudent(Student updated) {
         if ( updated == null || updated.getId() == null ) {
             throw new IllegalArgumentException("Student and id must not be empty.");
@@ -60,9 +81,19 @@ public class StudentManager {
             return false;
         }
         Student updatedEmail = findByEmail(updated.getEmail());
+
         if (updatedEmail != null && !updatedEmail.getId().equals(id)) {
-            return false; //another student has this email
+            return false; //another stude
         }
+
+        //name conflict nt has this email
+        if (updated.getName() != null) {
+            Student ownName = findByName(updated.getName());
+            if (ownName != null && !ownName.getId().equals(id)) {
+                return false;
+            }
+        }
+
         students.put(id, updated);
         return true;
     }
@@ -80,5 +111,10 @@ public class StudentManager {
     private String normalizedEmail(String email) {
         if ( email == null) return null;
         return email.trim().toLowerCase();
+    }
+
+    public String normalizedName(String name) {
+        if (name == null) return null;
+        return name.trim().toLowerCase();
     }
 }

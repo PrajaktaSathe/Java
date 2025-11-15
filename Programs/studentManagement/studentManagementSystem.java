@@ -104,6 +104,11 @@ public class studentManagementSystem {
     private Student collectStudentInput(String suggestedId, boolean requiredId) {
         String id;
         String name = promptNonEmpty("Name: ", true, null);
+        if(manager.findByName(name) != null) {
+            System.out.println("User cannot have duplicate name.");
+            return null;
+        }
+
         int age = promptInt("Age ", true, null);
         String email = promptNonEmpty("Email: ", true, null);
         String faculty = promptNonEmpty("Faculty: ", true, null);
@@ -137,7 +142,7 @@ public class studentManagementSystem {
     private void handleAdd() {
         /*System.out.println("--- Add Student ---");
         Student s = collectStudentInput(null, true);
-        if (s== null) return;
+        if (s == null) return;
         boolean added = manager.addStudent(s);
         System.out.println(added ? "Student added." : "Add failed.");*/
         handleAdd((String) null);
@@ -170,10 +175,10 @@ public class studentManagementSystem {
             System.out.println("Student not found.");
             String answer = promptNonEmpty("Do you want to add a new student with this ID? (y/n)", true, null);
             if (answer.equalsIgnoreCase("y") || answer.equalsIgnoreCase("Y")){
-                // Optionally pre-fill ID into the add flow:
-            // You can either set a field or modify handleAdd to accept a prefilled ID.
-            // For simplicity, call handleAdd() and let the user enter the ID again,
-            // or modify handleAdd to accept an optional suggestedId parameter.
+                /*Optionally pre-fill ID into the add flow:
+                You can either set a field or modify handleAdd to accept a prefilled ID.
+                For simplicity, call handleAdd() and let the user enter the ID again,
+                 or modify handleAdd to accept an optional suggestedId parameter. */ 
             handleAdd(id);
             } else {
                 System.out.println("Update cancelled.");
@@ -183,6 +188,13 @@ public class studentManagementSystem {
         }
 
             String name = promptNonEmpty("Name", false, existing.getName());
+            if (!normalized(name).equals(normalized(existing.getName()))) {
+                Student nameOwner = manager.findByName(name);
+                if (nameOwner != null && !nameOwner.getId().equals(id)) {
+                    System.out.println("Another student with this name already exists. Update cancelled.");
+                    return;
+                }
+            }
             int age = promptInt("Age", false, existing.getAge());
             String email = promptNonEmpty("Email", false, existing.getEmail());
             String faculty = promptNonEmpty("Faculty", false, existing.getFaculty());
