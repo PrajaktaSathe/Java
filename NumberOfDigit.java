@@ -8,14 +8,11 @@ num=num%10;
 this algorithm has a time complexity of O(n)
 we can simply calculate it by log(number)+1.
 here is the code for it :- */
-import java.util.*;
 
-class NumberOfDigit
-{
-    public static void main(String args[])
-    {
-        int num=356, digits=0;
-        digits = (int)Math.log10(num) + 1;
+class NumberOfDigit {
+    public static void main(String args[]) {
+        int num = 356, digits = 0;
+        digits = (int) Math.log10(num) + 1;
         System.out.println(digits);
     }
 }

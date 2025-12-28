@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 
 /**
  * Definition for singly-linked list.
@@ -14,9 +14,10 @@ class SinglyLinkedNode {
 
 /**
  * This is a program to demo rotating a singly linked list.
+ *
  * @see <a href=
- *      "https://leetcode.com/problems/rotate-list/description/">LeetCode
- *      description</a>
+ * "https://leetcode.com/problems/rotate-list/description/">LeetCode
+ * description</a>
  * Time complexity O(n), Space O(1)
  */
 public class RotateLinkedList {
@@ -26,7 +27,7 @@ public class RotateLinkedList {
             String input = sc.nextLine();
             System.out.println("Enter the number of rotations");
             int k = sc.nextInt();
-            String str = input.replaceAll(" ", "") .substring(1, input.length() - 1);
+            String str = input.replaceAll(" ", "").substring(1, input.length() - 1);
             String[] nodesStr = str.split(",");
             if (nodesStr.length == 0) {
                 System.out.println("[]");
@@ -35,7 +36,7 @@ public class RotateLinkedList {
 
             SinglyLinkedNode head = buildLinkedList(nodesStr);
             RotateLinkedList solution = new RotateLinkedList();
-            SinglyLinkedNode newHead =  solution.rotateRight(head, k);
+            SinglyLinkedNode newHead = solution.rotateRight(head, k);
             printOutput(newHead);
         } catch (Exception e) {
             System.out.println(
@@ -71,12 +72,13 @@ public class RotateLinkedList {
             if (newHead != null) {
                 System.out.print(",");
             }
-        } while(newHead != null);
+        } while (newHead != null);
         System.out.println("]");
     }
 
     /**
      * Given the head of a linked list, rotate the list to the right by k places.
+     *
      * @param head
      * @param k
      * @return head of linked list

@@ -1,15 +1,11 @@
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.*;
 
 public class NumberToRoman {
 
     /**
      * A function to convert a number to roman numerals Examples: num = 3 -> `III`,
      * num = 58 --> `LVIII`
-     * 
+     *
      * @param num
      * @return String
      */

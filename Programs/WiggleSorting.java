@@ -1,5 +1,6 @@
 package sorting;
-import java.util.*;
+
+import java.util.Scanner;
 
 class SortWave {
 
@@ -27,6 +28,7 @@ class SortWave {
         }
     }
 }
+
 public class WiggleSorting {
     public static void main(String[] args) {
         // What is wiggle sort?
@@ -37,20 +39,19 @@ public class WiggleSorting {
         //Time complexity : average O(n) time .
 
 
-
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number of elements of required array :");
-        int n= sc.nextInt();
-        int[] arr= new int[n];
+        int n = sc.nextInt();
+        int[] arr = new int[n];
         System.out.println("Enter the array(enter only positive integer):");
-        for(int i =0; i<n; i++){
-            arr[i]=sc.nextInt();
+        for (int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
         }
         SortWave ob = new SortWave();
         ob.sortInWave(arr, n);
         for (int i : arr) {
-                System.out.print(i+" ");
-            }
+            System.out.print(i + " ");
+        }
     }
-    }
+}
 

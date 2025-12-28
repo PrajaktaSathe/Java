@@ -4,7 +4,7 @@ public class Node {
     private int data;
     private Node nextNode;
 
-    public Node(int data){
+    public Node(int data) {
         this.data = data;
     }
 
@@ -19,7 +19,8 @@ public class Node {
     public Node getNextNode() {
         return nextNode;
     }
-  public void setNextNode(Node nextNode) {
+
+    public void setNextNode(Node nextNode) {
         this.nextNode = nextNode;
     }
 }
@@ -31,26 +32,26 @@ public class CustomStack {
     int length = 0;
     Node top = null;
 
-    public CustomStack(){
+    public CustomStack() {
     }
 
-    public int size(){
+    public int size() {
         return length;
     }
 
-    public boolean isEmpty(){
+    public boolean isEmpty() {
         return length == 0;
     }
 
-     public void push(int data) {
+    public void push(int data) {
         Node tempNode = new Node(data);
         tempNode.setNextNode(top);
         top = tempNode;
         length++;
     }
-    
-       public int pop() {
-        if(isEmpty()){
+
+    public int pop() {
+        if (isEmpty()) {
             throw new EmptyStackException();
         }
         Node node = top;
@@ -58,9 +59,9 @@ public class CustomStack {
         length--;
         return node.getData();
     }
-    
-    public int peek(){
-        if(isEmpty()){
+
+    public int peek() {
+        if (isEmpty()) {
             throw new EmptyStackException();
         }
         return top.getData();

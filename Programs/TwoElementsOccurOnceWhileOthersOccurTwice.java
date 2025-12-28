@@ -1,7 +1,7 @@
 // Fin the two non-repeating elements in an array where elements occur two times.
 package BitManipulation;
-import java.util.*;
-import java.lang.*;
+
+import java.util.Scanner;
 
 public class TwoElementsOccurOnceWhileOthersOccurTwice {
     public static void main(String[] args) {
@@ -10,12 +10,12 @@ public class TwoElementsOccurOnceWhileOthersOccurTwice {
         int n = sc.nextInt();
         System.out.println("Enter the elements:");
         int[] a = new int[n];
-        for(int i=0 ; i<n ; i++){
+        for (int i = 0; i < n; i++) {
             a[i] = sc.nextInt();
         }
 
         int xor = 0;
-        for(int i : a){
+        for (int i : a) {
             xor = xor ^ i;  // finding the xor of all the elements of the array.
         }
 
@@ -24,15 +24,14 @@ public class TwoElementsOccurOnceWhileOthersOccurTwice {
         int x = 0;
         int y = 0;
 
-        for(int i : a){
-            if((setBit & i) == 0){  // checking right most set bits of elements of the array is set or not
+        for (int i : a) {
+            if ((setBit & i) == 0) {  // checking right most set bits of elements of the array is set or not
                 x = x ^ i;  // if not set then put in in x variable after doing XOR operation.
-            }
-            else{
+            } else {
                 y = y ^ i;  // else put it in y variable after performing gXOR operation.
             }
         }
 
-        System.out.println(x+" "+y);
+        System.out.println(x + " " + y);
     }
 }

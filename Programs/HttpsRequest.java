@@ -3,7 +3,7 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.nio.charset.Charset;
- 
+
 public class HttpsRequest {
     public static void main(String[] args) {
         var request = HttpRequest.newBuilder(URI.create("https://github.com/"))

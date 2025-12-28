@@ -1,7 +1,9 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
-public class Dijkstra{
-    public static void main(String ...args){
+public class Dijkstra {
+    public static void main(String... args) {
         int v = 9;
         Graph g = new Graph(v);
         g.addEdge(0, 1, 4);
@@ -20,39 +22,39 @@ public class Dijkstra{
         g.addEdge(7, 8, 7);
         // g.printGraph();
 
-        dijkstra(g,0);
+        dijkstra(g, 0);
     }
 
-    private static void dijkstra(Graph g, int src){
+    private static void dijkstra(Graph g, int src) {
         int V = g.v;
         int dist[] = new int[V];
         Arrays.fill(dist, Integer.MAX_VALUE);
         dist[src] = 0;
         boolean visited[] = new boolean[V];
 
-        
-        for(int i = 0 ; i < V; i ++){
-            int u = minDist(dist,visited);
+
+        for (int i = 0; i < V; i++) {
+            int u = minDist(dist, visited);
             visited[u] = true;
 
             List<AdjNode> list = g.adjList.get(u);
-            for(AdjNode v  : list){
-                if(!visited[v.dest] && dist[u] + v.cost < dist[v.dest]){
+            for (AdjNode v : list) {
+                if (!visited[v.dest] && dist[u] + v.cost < dist[v.dest]) {
                     dist[v.dest] = dist[u] + v.cost;
                 }
             }
         }
 
         System.out.println("Vertex  Distance from Source");
-        for(int i = 0; i < dist.length; i++)
+        for (int i = 0; i < dist.length; i++)
             System.out.println(i + "         " + dist[i]);
     }
 
-    private static int minDist(int dist[], boolean[] visited){
+    private static int minDist(int dist[], boolean[] visited) {
         int min = Integer.MAX_VALUE, min_index = -1;
 
-        for(int i = 0 ; i < dist.length; i++){
-            if(!visited[i] && dist[i] <= min){
+        for (int i = 0; i < dist.length; i++) {
+            if (!visited[i] && dist[i] <= min) {
                 min = dist[i];
                 min_index = i;
             }
@@ -62,35 +64,38 @@ public class Dijkstra{
 }
 
 
-class Graph{
+class Graph {
     int v;
     List<ArrayList<AdjNode>> adjList;
-    Graph(int v){
+
+    Graph(int v) {
         this.v = v;
         adjList = new ArrayList<>();
-        for(int i = 0; i < this.v; i++){
+        for (int i = 0; i < this.v; i++) {
             adjList.add(new ArrayList<>());
         }
     }
 
-    public void addEdge(int u, int v, int cost){
+    public void addEdge(int u, int v, int cost) {
         this.adjList.get(u).add(new AdjNode(u, v, cost));
         this.adjList.get(v).add(new AdjNode(v, u, cost));
     }
-    public void printGraph(){
-        for(int i = 0 ; i < this.v ; i++){
-            System. out.print(i + " -> ");
-            for(int j = 0 ; j < adjList.get(i).size(); j++){
+
+    public void printGraph() {
+        for (int i = 0; i < this.v; i++) {
+            System.out.print(i + " -> ");
+            for (int j = 0; j < adjList.get(i).size(); j++) {
                 System.out.print(adjList.get(i).get(j).dest + " ");
             }
-            System. out.println();
+            System.out.println();
         }
     }
 }
 
-class AdjNode{
+class AdjNode {
     int source, dest, cost;
-    AdjNode(int source, int dest, int cost){
+
+    AdjNode(int source, int dest, int cost) {
         this.source = source;
         this.dest = dest;
         this.cost = cost;

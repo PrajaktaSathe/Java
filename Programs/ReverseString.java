@@ -4,10 +4,10 @@ public class ReverseString {
         String reverseWord = "";
 
         for (int i = word.length(); i != 0; i--) {
-            reverseWord += word.substring(i-1,i);
+            reverseWord += word.substring(i - 1, i);
         }
-        
+
         System.out.println(reverseWord);
-        
+
     }
 }

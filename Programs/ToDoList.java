@@ -41,7 +41,7 @@ public class ToDoList {
         int yn = sc.nextInt();
         if (yn == 1) {
             addTask(tasks);
-        } else if (yn == 2){
+        } else if (yn == 2) {
             list(tasks);
         } else {
             System.out.println("Invalid number!");

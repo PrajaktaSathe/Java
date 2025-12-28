@@ -25,6 +25,7 @@ public class CeaserCipher {
             }
         }
     }
+
     public static void ceaserCipherEncryption() {
         Scanner textInput = new Scanner(System.in);
         System.out.print("PlainText: ");
